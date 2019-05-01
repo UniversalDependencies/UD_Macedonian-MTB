@@ -1,6 +1,6 @@
 # Summary
 
-The Macedonian-MTB treebank is a collection of annotated sentences based on the [Macedonian Language Digital Resources - MLDR](http://drmj.manu.edu.mk/%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81-%D0%BD%D0%B0-%D0%BC%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BD%D0%B8/), originally published by the Macedonian Academy of Sciences and Arts under the CC Attribution-NonCommercial 4.0 International License. The treebank consists mainly of literary and a few non-fiction texts.
+The Macedonian-MTB treebank is a collection of annotated sentences based on the corpus called [Macedonian Language Digital Resources - MLDR](http://drmj.manu.edu.mk/%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81-%D0%BD%D0%B0-%D0%BC%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BD%D0%B8/), a.k.a 135 Volumes of Macedonian Literature, published by the Macedonian Academy of Sciences and Arts under the CC Attribution-NonCommercial 4.0 International License. The treebank consists mainly of literary and a few non-fiction texts.
 
 # Introduction
 
