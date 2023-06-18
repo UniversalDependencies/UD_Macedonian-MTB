@@ -1,237 +1,252 @@
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = bulgarian-btb-ud-2.10-220711
-# udpipe_model_licence = CC BY-NC-SA
-# newdoc
-# newpar
-# sent_id = 1
-# text = Дејвоката му напиша писмо на својот пријател.
-1	Дејвоката	дејвока	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=0:9
-2	му	аз	PRON	Ppetds3m	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	TokenRange=10:12
-3	напиша	напиша	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=13:19
-4	писмо	писмо	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	TokenRange=20:25
-5	на	на	ADP	R	_	7	case	_	TokenRange=26:28
-6	својот	свој	DET	Psxlos-mh	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	TokenRange=29:35
-7	пријател	пријател	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=36:44
-8	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\r\n|TokenRange=44:45
+# newdoc id = cairo
+# newpar id = cairo01
+# sent_id = cairo01
+# text = Девојката му напиша писмо на својот пријател.
+1	Девојката	девојка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	напиша	напишe	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	писмо	писмо	NOUN	_	Animacy=Inan|Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	својот	свој	DET	_	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	amod	_	_
+7	пријател	пријател	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	iobj	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 2
+# newpar id = cairo02
+# sent_id = cairo02
 # text = Мислам дека врне.
-1	Мислам	мислам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=47:53
-2	дека	дека	AUX	Tx	_	3	aux	_	TokenRange=54:58
-3	врне	врна	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No|TokenRange=59:63
-4	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\r\n|TokenRange=63:64
+1	Мислам	мисли	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=1|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	0	root	_	_
+2	дека	дека	SCONJ	_	_	3	mark	_	_
+3	врне	врне	VERB	_	Aspect=Imp|Mood=Ind|Person=3|Tense=Prs|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 3
-# text = Се обиде да престане да пуши и пие.
-1	Се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	TokenRange=66:68
-2	обиде	обидея	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=69:74
-3	да	да	AUX	Tx	_	4	aux	_	TokenRange=75:77
-4	престане	престана	VERB	Vppif-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	TokenRange=78:86
-5	да	да	AUX	Tx	_	6	aux	_	TokenRange=87:89
-6	пуши	пуша	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	xcomp	_	TokenRange=90:94
-7	и	и	CCONJ	Cp	_	8	cc	_	TokenRange=95:96
-8	пие	пия	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No|TokenRange=97:100
-9	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\r\n|TokenRange=100:101
+# newpar id = cairo03
+# sent_id = cairo03
+# text = Тој се обиде да престане да пуши и да пие.
+1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
+3	обиде	обиде	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	да	да	PART	_	_	5	mark	_	_
+5	престане	престане	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	3	xcomp	_	_
+6	да	да	PART	_	_	7	mark	_	_
+7	пуши	пуши	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	5	xcomp	_	_
+8	и	и	CONJ	_	_	7	cc	_	_
+9	да	да	PART	_	_	10	mark	_	_
+10	пие	пие	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	7	conj	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 4
-# text = Сакаш да (си) одиш?
-1	Сакаш	сакам	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=103:108
-2	да	да	AUX	Tx	_	6	aux	_	TokenRange=109:111
-3	(	(	PUNCT	punct	_	4	punct	_	SpaceAfter=No|TokenRange=112:113
-4	си	съм	AUX	Vxitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	SpaceAfter=No|TokenRange=113:115
-5	)	)	PUNCT	punct	_	4	punct	_	TokenRange=115:116
-6	одиш	одя-(се)	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No|TokenRange=117:121
-7	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\r\n|TokenRange=121:122
+# newpar id = cairo04
+# sent_id = cairo04
+# text = Сакаш да си одиш?
+1	Сакаш	сака	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	0	root	_	_
+2	да	да	PART	_	_	4	mark	_	_
+3	си	си	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	_
+4	одиш	оди	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	1	xcomp	_	_
+5	?	?	PUNCT	_	PunctType=Qest	1	punct	_	_
 
-# sent_id = 5
+# newpar id = cairo05
+# sent_id = cairo05
 # text = Сем, отвори го прозорецот!
-1	Сем	сем	INTJ	I	_	3	vocative	_	SpaceAfter=No|TokenRange=124:127
-2	,	,	PUNCT	punct	_	1	punct	_	TokenRange=127:128
-3	отвори	отворя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=129:135
-4	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	TokenRange=136:138
-5	прозорецот	прозорецот	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|TokenRange=139:149
-6	!	!	PUNCT	punct	_	3	punct	_	SpacesAfter=\r\n|TokenRange=149:150
+1	Сем	сем	PROPN	_	Number=Sing	3	vocative	_	_
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+3	отвори	отвори	VERB	_	Aspect=Perf|Evident=Fh|Mood=Imp|Person=2|Polarity=Pos|Tense=Prs|VerbForm=Fin	0	root	_	_
+4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	прозорецот	прозорец	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	_
+6	!	!	PUNCT	_	PunctType=Excl	3	punct	_	_
 
-# sent_id = 6
+# newpar id = cairo06
+# sent_id = cairo06
 # text = Го натера мажот ѝ да ја измие колата.
-1	Го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	TokenRange=152:154
-2	натера	натерам-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=155:161
-3	мажот	мажот	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=162:167
-4	ѝ	ѝ	CCONJ	Cp	_	7	cc	_	TokenRange=168:169
-5	да	да	AUX	Tx	_	7	aux	_	TokenRange=170:172
-6	ја	ја	PRON	Tx	_	7	expl	_	TokenRange=173:175
-7	измие	измия	VERB	Vpptf-r3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=176:181
-8	колата	кола	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|TokenRange=182:188
-9	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\r\n|TokenRange=188:189
+1	Го	го	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	натера	натера	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	мажот	маж	NOUN	_	Animacy=Hum|Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
+4	ѝ	ѝ	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	case	_	_
+5	да	да	PART	_	_	7	mark	_	_
+6	ја	ја	PART	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	измие	измие	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	2	xcomp	_	_
+8	колата	кола	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
+9	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
-# sent_id = 7
+# newpar id = cairo07
+# sent_id = cairo07
 # text = Соседот на Петар ја исфарба оградата црвено.
-1	Соседот	сосед	NOUN	Ncmsf	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=191:198
-2	на	на	ADP	R	_	3	case	_	TokenRange=199:201
-3	Петар	петар	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	TokenRange=202:207
-4	ја	ја	AUX	Tx	_	5	aux	_	TokenRange=208:210
-5	исфарба	исфарбам	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=211:218
-6	оградата	ограда	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	TokenRange=219:227
-7	црвено	црвено	ADV	Dm	Degree=Pos	5	advmod	_	SpaceAfter=No|TokenRange=228:234
-8	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\r\n|TokenRange=234:235
+1	Соседот	сосед	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	Петар	петар	PROPN	_	_	1	nmod	_	_
+4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	исфарба	исфарба	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	оградата	ограда	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	_
+7	црвено	црвено	ADV	_	Degree=Pos	5	xcomp	_	_
+8	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
-# sent_id = 8
+# newpar id = cairo08
+# sent_id = cairo08
 # text = Мојот татко е позабавен од твојот.
-1	Мојот	мојот	DET	Psol-s1mf	Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	TokenRange=237:242
-2	татко	татко	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj:pass	_	TokenRange=243:248
-3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	TokenRange=249:250
-4	позабавен	позабавя-(се)	VERB	Vpptcv--smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=251:260
-5	од	од	ADP	R	_	6	case	_	TokenRange=261:263
-6	твојот	твој	DET	Pde-os-m	Gender=Masc|Number=Sing|PronType=Dem	4	iobj	_	SpaceAfter=No|TokenRange=264:270
-7	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\r\n|TokenRange=270:271
+1	Мојот	мој	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	татко	татко	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	е	сум	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	позабавен	забавен	ADJ	_	Degree=Cmp	0	root	_	_
+5	од	од	SCONJ	_	_	6	case	_	_
+6	твојот	твој	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod	_	_
+7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
-# sent_id = 9
-# text = Мери доби бронза, Петар сребро а Џејн злато.
-1	Мери	мери	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=273:277
-2	доби	добя	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=278:282
-3	бронза	бронза	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=283:289
-4	,	,	PUNCT	punct	_	5	punct	_	TokenRange=289:290
-5	Петар	петар	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	TokenRange=291:296
-6	сребро	сребро	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	flat	_	TokenRange=297:303
-7	а	а	CCONJ	Cp	_	8	cc	_	TokenRange=304:305
-8	Џејн	џејн	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=306:310
-9	злато	злато	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	8	flat	_	SpaceAfter=No|TokenRange=311:316
-10	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\r\n|TokenRange=316:317
+# newpar id = cairo09
+# sent_id = cairo09
+# text = Мери освои бронза, Петар сребро, а Џејн злато.
+1	Мери	мери	PROPN	_	Number=Sing	2	nsubj	_	_
+2	освои	освои	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	бронза	бронза	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	dobj	_	_
+4	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+5	Петар	петар	PROPN	_	Number=Sing	1	remnant	_	_
+6	сребро	сребро	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	remnant	_	_
+7	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+8	а	а	CONJ	_	_	2	cc	_	_
+9	Џејн	џејн	PROPN	_	Number=Sing	5	remnant	_	_
+10	злато	злато	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	remnant	_	_
+11	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
-# sent_id = 10
+# newpar id = cairo10
+# sent_id = cairo10
 # text = Игуацу е голема или мала држава?
-1	Игуацу	игуацу	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=319:325
-2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	TokenRange=326:327
-3	голема	голем	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	TokenRange=328:334
-4	или	или	CCONJ	Cp	_	5	cc	_	TokenRange=335:338
-5	мала	мал	ADJ	Afsi	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	TokenRange=339:343
-6	држава	држава	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=344:350
-7	?	?	PUNCT	punct	_	6	punct	_	SpacesAfter=\r\n|TokenRange=350:351
+1	Игуацу	игуацу	PROPN	_	Number=Sing	6	nsubj	_	_
+2	е	сум	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	голема	голем	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+4	или	или	CONJ	_	_	3	cc	_	_
+5	мала	мал	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_
+6	држава	држава	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
+7	?	?	PUNCT	_	PunctType=Qest	6	punct	_	_
 
-# sent_id = 11
+# newpar id = cairo11
+# sent_id = cairo11
 # text = Ниту Петар Смит ниту Мери Браун не можеа да бидат одбрани.
-1	Ниту	ниту	CCONJ	Cr	_	2	cc	_	TokenRange=353:357
-2	Петар	петар	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=358:363
-3	Смит	смит	PROPN	Hmsi	Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	TokenRange=364:368
-4	ниту	ниту	CCONJ	Cr	_	5	cc	_	TokenRange=369:373
-5	Мери	мери	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	TokenRange=374:378
-6	Браун	браун	PROPN	Hfsi	Definite=Ind|Gender=Fem|Number=Sing	5	flat	_	TokenRange=379:384
-7	не	не	PART	Tn	Polarity=Neg	8	advmod	_	TokenRange=385:387
-8	можеа	мога	VERB	Vpiif-o3p	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=388:393
-9	да	да	AUX	Tx	_	11	aux	_	TokenRange=394:396
-10	бидат	бидам	AUX	Vyptf-r3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	TokenRange=397:402
-11	одбрани	одбера	VERB	Vpptcv--p-i	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	8	xcomp	_	SpaceAfter=No|TokenRange=403:410
-12	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\r\n|TokenRange=410:411
+1	Ниту	ниту	CONJ	_	_	2	cc	_	_
+2	Петар	петар	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	8	nsubjpass	_	_
+3	Смит	смит	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	name	_	_
+4	ниту	ниту	CONJ	_	_	2	cc	_	_
+5	Мери	мери	PROPN	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+6	Браун	браун	PROPN	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing	5	name	_	_
+7	не	не	PART	_	Polarity=Neg	8	neg	_	_
+8	можеа	може	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	11	aux	_	_
+9	да	да	PART	_	_	10	mark	_	_
+10	бидат	биде	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Pass	11	auxpass	_	_
+11	одбрани	одбран	ADJ	_	Definite=Pos|Degree=Pos|Gender=Com|Number=Plur	0	root	_	_
+12	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
-# sent_id = 12
-# text = Не знаат кој го напишал тоа.
-1	Не	не	PART	Tn	Polarity=Neg	2	advmod	_	TokenRange=413:415
-2	знаат	знам	VERB	Vpiif-r3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=416:421
-3	кој	кој	PRON	Pie-os-m	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	TokenRange=422:425
-4	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	TokenRange=426:428
-5	напишал	напиша	VERB	Vpptcao-smi	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	TokenRange=429:436
-6	тоа	аз	PRON	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No|TokenRange=437:440
-7	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\r\n|TokenRange=440:441
+# newpar id = cairo12
+# sent_id = cairo12
+# text = Не знаат кој го напишал.
+1	Не	не	PART	_	Polarity=Neg	2	neg	_	_
+2	знаат	знае	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	кој	кој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	_
+4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	_
+5	напишал	напише	VERB	_	Aspect=Imp|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+6	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
-# sent_id = 13
-# text = На што гледаш?
-1	На	на	ADP	R	_	2	case	_	TokenRange=443:445
-2	што	што	PRON	Pie-as-m	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int	3	iobj	_	TokenRange=446:449
-3	гледаш	гледам	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=450:456
-4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\r\n|TokenRange=456:457
+# newpar id = cairo13
+# sent_id = cairo13
+# text = Што гледаш?
+1	Што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	_
+2	гледаш	гледа	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	?	?	PUNCT	_	PunctType=Qest	2	punct	_	_
 
-# sent_id = 14
-# text = Кога си мислиш дека можеш да дојдеш?
-1	Кога	кога	ADV	Pit	PronType=Int	3	advmod	_	TokenRange=459:463
-2	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	3	expl	_	TokenRange=464:466
-3	мислиш	мисля	VERB	Vpitf-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=467:473
-4	дека	дека	AUX	Tx	_	5	aux	_	TokenRange=474:478
-5	можеш	мога	VERB	Vpiif-r2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	TokenRange=479:484
-6	да	да	AUX	Tx	_	7	aux	_	TokenRange=485:487
-7	дојдеш	дојда	VERB	Vppif-r2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	SpaceAfter=No|TokenRange=488:494
-8	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\r\n|TokenRange=494:495
+# newpar id = cairo14
+# sent_id = cairo14
+# text = Кога мислиш дека можеш да дојдеш?
+1	Кога	кога	ADV	_	PronType=Int	2	advmod	_	_
+2	мислиш	мисли	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	дека	дека	SCONJ	_	_	6	mark	_	_
+4	можеш	може	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	да	да	PART	_	_	6	mark	_	_
+6	дојдеш	дојде	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+7	?	?	PUNCT	_	PunctType=Qest	2	punct	_	_
 
-# sent_id = 15
-# text = Тој купи автомобил, но неговиот брат само велосипед.
-1	Тој	аз	PRON	Ppe-os3m	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=497:500
-2	купи	купя	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=501:505
-3	автомобил	автомобил	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=506:515
-4	,	,	PUNCT	punct	_	5	punct	_	TokenRange=515:516
-5	но	но	CCONJ	Cc	_	9	cc	_	TokenRange=517:519
-6	неговиот	мой	DET	Psol-s3mfm	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	TokenRange=520:528
-7	брат	брат	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=529:533
-8	само	само	ADV	Dd	Degree=Pos	9	advmod	_	TokenRange=534:538
-9	велосипед	велосипед	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=539:548
-10	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\r\n|TokenRange=548:549
+# newpar id = cairo15
+# sent_id = cairo15
+# text = Тој купи автомобил, но неговиот брат - само велосипед.
+1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	купи	купи	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	автомобил	автомобил	NOUN	_	Animacy=Inan|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+5	но	но	CONJ	_	_	2	cc	_	_
+6	неговиот	негов	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	брат	брат	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	remnant	_	_
+8	-	-	PUNCT	_	PunctType=Dash	2	punct	_	_
+9	само	само	ADV	_	_	10	advmod	_	_
+10	велосипед	велосипед	NOUN	_	Animacy=Inan|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	remnant	_	_
+11	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
-# sent_id = 16
+# newpar id = cairo16
+# sent_id = cairo16
 # text = Петар и Мери се прегрнаа и потоа излегоа од собата.
-1	Петар	петар	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=551:556
-2	и	и	CCONJ	Cp	_	3	cc	_	TokenRange=557:558
-3	Мери	мери	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	TokenRange=559:563
-4	се	се	PRON	Ppxta	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	TokenRange=564:566
-5	прегрнаа	прегрна-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=567:575
-6	и	и	CCONJ	Cp	_	8	cc	_	TokenRange=576:577
-7	потоа	потоа	ADV	Dt	Degree=Pos	8	advmod	_	TokenRange=578:583
-8	излегоа	излегоа	VERB	Vppif-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=584:591
-9	од	од	ADP	R	_	10	case	_	TokenRange=592:594
-10	собата	соба	NOUN	Ncfsd	Definite=Def|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No|TokenRange=595:601
-11	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\r\n|TokenRange=601:602
+1	Петар	петар	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	и	и	CONJ	_	_	1	cc	_	_
+3	Мери	мери	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_
+5	прегрнаа	прегрне	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	и	и	CONJ	_	_	5	cc	_	_
+7	потоа	потоа	ADV	_	_	8	advmod	_	_
+8	излегоа	излезе	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+9	од	од	ADP	_	_	10	case	_	_
+10	собата	соба	NOUN	_	Animacy=Inan|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	_
+11	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
-# sent_id = 17
-# text = Требаше да си прави фризура, но од некоја причина не ја направи дента.
-1	Требаше	треба	VERB	Vniif-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=604:611
-2	да	да	AUX	Tx	_	4	aux	_	TokenRange=612:614
-3	си	се	PRON	Ppxtd	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	TokenRange=615:617
-4	прави	правя-(се)	VERB	Vpitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	TokenRange=618:623
-5	фризура	фризура	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=624:631
-6	,	,	PUNCT	punct	_	7	punct	_	TokenRange=631:632
-7	но	но	CCONJ	Cc	_	13	cc	_	TokenRange=633:635
-8	од	од	ADP	R	_	10	case	_	TokenRange=636:638
-9	некоја	некој	DET	Afsi	Definite=Ind|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	TokenRange=639:645
-10	причина	причина	NOUN	Ncfsi	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	TokenRange=646:653
-11	не	не	PART	Tn	Polarity=Neg	13	advmod	_	TokenRange=654:656
-12	ја	ја	PRON	Ppetas3f	_	13	expl	_	TokenRange=657:659
-13	направи	направя-(се)	VERB	Vpptf-o3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=660:667
-14	дента	дент	NOUN	Ncmsh	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|TokenRange=668:673
-15	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\r\n|TokenRange=673:674
+# newpar id = cairo17
+# sent_id = cairo17
+# text = Требаше да си ја направи фризурата, но дента од некоја причина не ја направи.
+1	Требаше	треба	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+2	да	да	PART	_	PartType=Inf	5	mark	_	_
+3	си	си	PRON	_	PronType=Prs|Reflex=Yes	5	ref	_	_
+4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	_
+6	фризурата	фризура	NOUN	_	Animacy=Inan|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
+8	но	но	CONJ	_	_	5	cc	_	_
+9	дента	дента	ADV	_	Degree=Pos	15	advmod	_	_
+10	од	од	ADP	_	_	12	case	_	_
+11	некоја	некој	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	amod	_	_
+12	причина	причина	NOUN	_	Animacy=Nhum|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	_
+13	не	не	PART	_	PartType=Neg	15	neg	_	_
+14	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+16	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
-# sent_id = 18
+# newpar id = cairo18
+# sent_id = cairo18
 # text = Не можев да го следам бидејќи трчаше пребрзо.
-1	Не	не	PART	Tn	Polarity=Neg	2	advmod	_	TokenRange=676:678
-2	можев	мога	VERB	Vpiif-r1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=679:684
-3	да	да	AUX	Tx	_	5	aux	_	TokenRange=685:687
-4	го	аз	PRON	Ppetas3m	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	TokenRange=688:690
-5	следам	следам	VERB	Vpitf-r1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	TokenRange=691:697
-6	бидејќи	бидејќй	NOUN	Ncmpi	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	TokenRange=698:705
-7	трчаше	трчам	VERB	Vpitf-m3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	2	xcomp	_	TokenRange=706:712
-8	пребрзо	пребрзо	ADV	Dm	Degree=Pos	7	advmod	_	SpaceAfter=No|TokenRange=713:720
-9	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\r\n|TokenRange=720:721
+1	Не	не	PART	_	Polarity=Neg	2	neg	_	_
+2	можев	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
+3	да	да	PART	_	PartType=Inf	5	mark	_	_
+4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	следам	следи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
+6	бидејќи	бидејќи	SCONJ	_	_	7	mark	_	_
+7	трчаше	трча	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+8	пребрзо	брзо	ADV	_	Degree=Abs	7	advmod	_	_
+9	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
-# sent_id = 19
-# text = Ова писмо е од Патар и стигнато е вчера.
-1	Ова	ов	DET	Pde-os-n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	TokenRange=723:726
-2	писмо	писмо	NOUN	Ncnsi	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	TokenRange=727:732
-3	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	TokenRange=733:734
-4	од	од	ADP	R	_	5	case	_	TokenRange=735:737
-5	Патар	патар	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	TokenRange=738:743
-6	и	и	CCONJ	Cp	_	7	cc	_	TokenRange=744:745
-7	стигнато	стигна	VERB	Vpptcv--sni	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	TokenRange=746:754
-8	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	TokenRange=755:756
-9	вчера	вчера	ADV	Dt	Degree=Pos	7	advmod	_	SpaceAfter=No|TokenRange=757:762
-10	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\r\n|TokenRange=762:763
+# newpar id = cairo19
+# sent_id = cairo19
+# text = Ова писмо е од Патар и беше испорачано вчера.
+1	Ова	ова	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	писмо	писмо	NOUN	_	Animacy=Inan|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	е	сум	_	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	од	од	ADP	_	_	5	case	_	_
+5	Петар	петар	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	и	и	CCONJ	_	_	5	cc	_	_
+7	беше	сум	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	8	auxpass	_	_
+8	испорачано	испорачан	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	_
+9	вчера	вчера	ADV	_	Degree=Pos	8	advmod	_	_
+10	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
-# sent_id = 20
-# text = Таа е израсната во Париз, главниот град на Франција.
-1	Таа	таа	PRON	Ppe-os3f	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	TokenRange=765:768
-2	е	съм	AUX	Vxitf-r3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	TokenRange=769:770
-3	израсната	израсна	VERB	Vpptcv--sfi	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=771:780
-4	во	во	ADP	R	_	5	case	_	TokenRange=781:783
-5	Париз	париз	PROPN	Npmsi	Definite=Ind|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No|TokenRange=784:789
-6	,	,	PUNCT	punct	_	8	punct	_	TokenRange=789:790
-7	главниот	главниот	ADJ	Amsf	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=791:799
-8	град	град	NOUN	Ncmsi	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	TokenRange=800:804
-9	на	на	ADP	R	_	10	case	_	TokenRange=805:807
-10	Франција	франција	PROPN	Npfsi	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=808:816
-11	.	.	PUNCT	punct	_	3	punct	_	SpaceAfter=No|TokenRange=816:817
+# newpar id = cairo20
+# sent_id = cairo20
+# text = Таа израсна во Париз, главниот град на Франција.
+1	Таа	таа	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	израсна	израсна	_	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	во	во	ADP	_	_	4	case	_	_
+4	Париз	париз	PROPN	_	Animacy=Inan|Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
+6	главниот	главен	ADJ	_	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	град	град	NOUN	_	Animacy=Inan|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	Франција	франција	PROPN	_	Animacy=Inan|Gender=Fem|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
