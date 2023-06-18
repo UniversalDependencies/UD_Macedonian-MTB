@@ -19,17 +19,24 @@ The Macedonian-MTB treebank is a collection of annotated sentences based on the 
 
 - [Macedonian Language Digital Resources - MLDR](http://drmj.manu.edu.mk/%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81-%D0%BD%D0%B0-%D0%BC%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-%D0%BA%D0%BD%D0%B8/)
 
+
+# Changelog
+
+* 2023-11-15 v2.13
+  * Initial release in Universal Dependencies.
+
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.4
+Data available since: UD v2.13
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction news
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Genre: grammar-examples
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
 Contributors: Cvetkoski, Vladimir
 Contributing: elsewhere
 Contact: cvetkoski@flf.ukim.edu.mk
