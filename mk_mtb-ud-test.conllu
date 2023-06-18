@@ -3,6 +3,7 @@
 # sent_id = cairo01
 # text = Девојката му напиша писмо на својот пријател.
 # translit = Devojkata mu napiša pismo na svojot prijatel.
+# text_en = The girl wrote a letter to her friend.
 1	Девојката	девојка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	Translit=Devojkata|LTranslit=devojka
 2	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=mu|LTranslit=mu
 3	напиша	напишe	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=napiša|LTranslit=napiše
@@ -16,6 +17,7 @@
 # sent_id = cairo02
 # text = Мислам дека врне.
 # translit = Mislam deka vrne.
+# text_en = I think that it is raining.
 1	Мислам	мисли	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=1|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	0	root	_	Translit=Mislam|LTranslit=misli
 2	дека	дека	SCONJ	_	_	3	mark	_	Translit=deka|LTranslit=deka
 3	врне	врне	VERB	_	Aspect=Imp|Mood=Ind|Person=3|Tense=Prs|VerbForm=Fin|Voice=Act	1	ccomp	_	Translit=vrne|LTranslit=vrne
@@ -25,6 +27,7 @@
 # sent_id = cairo03
 # text = Тој се обиде да престане да пуши и да пие.
 # translit = Toj se obide da prestane da puši i da pie.
+# text_en = He tried to stop smoking and drinking.
 1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Translit=Toj|LTranslit=toj
 2	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	Translit=se|LTranslit=se
 3	обиде	обиде	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=obide|LTranslit=obide
@@ -41,6 +44,7 @@
 # sent_id = cairo04
 # text = Сакаш да си одиш?
 # translit = Sakaš da si odiš?
+# text_en = Do you want to go?
 1	Сакаш	сака	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Prs|VerbForm=Fin|Voice=Act	0	root	_	Translit=Sakaš|LTranslit=saka
 2	да	да	PART	_	_	4	mark	_	Translit=da|LTranslit=da
 3	си	си	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	Translit=si|LTranslit=si
@@ -51,6 +55,7 @@
 # sent_id = cairo05
 # text = Сем, отвори го прозорецот!
 # translit = Sem, otvori go prozorecot!
+# text_en = Sam, open the window!
 1	Сем	сем	PROPN	_	Number=Sing	3	vocative	_	Translit=Sem|LTranslit=sem
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	Translit=,|LTranslit=,
 3	отвори	отвори	VERB	_	Aspect=Perf|Evident=Fh|Mood=Imp|Person=2|Polarity=Pos|Tense=Prs|VerbForm=Fin	0	root	_	Translit=otvori|LTranslit=otvori
@@ -62,6 +67,7 @@
 # sent_id = cairo06
 # text = Го натера мажот ѝ да ја измие колата.
 # translit = Go natera mažot ѝ da ja izmie kolata.
+# text_en = She made her husband wash the car.
 1	Го	го	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	expl	_	Translit=Go|LTranslit=go
 2	натера	натера	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=natera|LTranslit=natera
 3	мажот	маж	NOUN	_	Animacy=Hum|Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	Translit=mažot|LTranslit=maž
@@ -76,6 +82,7 @@
 # sent_id = cairo07
 # text = Соседот на Петар ја исфарба оградата црвено.
 # translit = Sosedot na Petar ja isfarba ogradata crveno.
+# text_en = Peter’s neighbor painted the fence red.
 1	Соседот	сосед	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	Translit=Sosedot|LTranslit=sosed
 2	на	на	ADP	_	_	3	case	_	Translit=na|LTranslit=na
 3	Петар	петар	PROPN	_	_	1	nmod	_	Translit=Petar|LTranslit=petar
@@ -89,6 +96,7 @@
 # sent_id = cairo08
 # text = Мојот татко е позабавен од твојот.
 # translit = Mojot tatko e pozabaven od tvojot.
+# text_en = My dad is cooler than yours.
 1	Мојот	мој	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Translit=Mojot|LTranslit=moj
 2	татко	татко	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	Translit=tatko|LTranslit=tatko
 3	е	сум	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Translit=e|LTranslit=sum
@@ -101,6 +109,7 @@
 # sent_id = cairo09
 # text = Мери освои бронза, Петар сребро, а Џејн злато.
 # translit = Meri osvoi bronza, Petar srebro, a DŽejn zlato.
+# text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Мери	мери	PROPN	_	Number=Sing	2	nsubj	_	Translit=Meri|LTranslit=meri
 2	освои	освои	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=osvoi|LTranslit=osvoi
 3	бронза	бронза	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	dobj	_	Translit=bronza|LTranslit=bronza
@@ -117,6 +126,7 @@
 # sent_id = cairo10
 # text = Игуацу е голема или мала држава?
 # translit = Iguacu e golema ili mala država?
+# text_en = Is Iguazu a big or a small country?
 1	Игуацу	игуацу	PROPN	_	Number=Sing	6	nsubj	_	Translit=Iguacu|LTranslit=iguacu
 2	е	сум	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	Translit=e|LTranslit=sum
 3	голема	голем	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	Translit=golema|LTranslit=golem
@@ -129,6 +139,7 @@
 # sent_id = cairo11
 # text = Ниту Петар Смит ниту Мери Браун не можеа да бидат одбрани.
 # translit = Nitu Petar Smit nitu Meri Braun ne možea da bidat odbrani.
+# text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	Ниту	ниту	CONJ	_	_	2	cc	_	Translit=Nitu|LTranslit=nitu
 2	Петар	петар	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	8	nsubjpass	_	Translit=Petar|LTranslit=petar
 3	Смит	смит	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	name	_	Translit=Smit|LTranslit=smit
@@ -146,6 +157,7 @@
 # sent_id = cairo12
 # text = Не знаат кој го напишал.
 # translit = Ne znaat koj go napišal.
+# text_en = They have no idea who wrote it.
 1	Не	не	PART	_	Polarity=Neg	2	neg	_	Translit=Ne|LTranslit=ne
 2	знаат	знае	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=znaat|LTranslit=znae
 3	кој	кој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	Translit=koj|LTranslit=koj
@@ -157,6 +169,7 @@
 # sent_id = cairo13
 # text = Што гледаш?
 # translit = Što gledaš?
+# text_en = What are you looking at?
 1	Што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	Translit=Što|LTranslit=što
 2	гледаш	гледа	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=gledaš|LTranslit=gleda
 3	?	?	PUNCT	_	PunctType=Qest	2	punct	_	Translit=?|LTranslit=?
@@ -165,6 +178,7 @@
 # sent_id = cairo14
 # text = Кога мислиш дека можеш да дојдеш?
 # translit = Koga misliš deka možeš da dojdeš?
+# text_en = When do you think you can come?
 1	Кога	кога	ADV	_	PronType=Int	2	advmod	_	Translit=Koga|LTranslit=koga
 2	мислиш	мисли	VERB	_	Aspect=Imp|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=misliš|LTranslit=misli
 3	дека	дека	SCONJ	_	_	6	mark	_	Translit=deka|LTranslit=deka
@@ -177,6 +191,7 @@
 # sent_id = cairo15
 # text = Тој купи автомобил, но неговиот брат - само велосипед.
 # translit = Toj kupi avtomobil, no negoviot brat - samo velosiped.
+# text_en = He bought a car but his brother just a bike.
 1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Toj|LTranslit=toj
 2	купи	купи	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=kupi|LTranslit=kupi
 3	автомобил	автомобил	NOUN	_	Animacy=Inan|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	Translit=avtomobil|LTranslit=avtomobil
@@ -193,6 +208,7 @@
 # sent_id = cairo16
 # text = Петар и Мери се прегрнаа и потоа излегоа од собата.
 # translit = Petar i Meri se pregrnaa i potoa izlegoa od sobata.
+# text_en = Peter and Mary hugged each other and then left the room.
 1	Петар	петар	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Translit=Petar|LTranslit=petar
 2	и	и	CONJ	_	_	1	cc	_	Translit=i|LTranslit=i
 3	Мери	мери	PROPN	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Translit=Meri|LTranslit=meri
@@ -209,6 +225,7 @@
 # sent_id = cairo17
 # text = Требаше да си ја направи фризурата, но дента од некоја причина не ја направи.
 # translit = Trebaše da si ja napravi frizurata, no denta od nekoja pričina ne ja napravi.
+# text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Требаше	треба	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=Trebaše|LTranslit=treba
 2	да	да	PART	_	PartType=Inf	5	mark	_	Translit=da|LTranslit=da
 3	си	си	PRON	_	PronType=Prs|Reflex=Yes	5	ref	_	Translit=si|LTranslit=si
@@ -230,6 +247,7 @@
 # sent_id = cairo18
 # text = Не можев да го следам бидејќи трчаше пребрзо.
 # translit = Ne možev da go sledam bidejťi trčaše prebrzo.
+# text_en = I wasn't able to keep up, because he ran too fast.
 1	Не	не	PART	_	Polarity=Neg	2	neg	_	Translit=Ne|LTranslit=ne
 2	можев	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=možev|LTranslit=može
 3	да	да	PART	_	PartType=Inf	5	mark	_	Translit=da|LTranslit=da
@@ -244,6 +262,7 @@
 # sent_id = cairo19
 # text = Ова писмо е од Патар и беше испорачано вчера.
 # translit = Ova pismo e od Patar i beše isporačano včera.
+# text_en = This letter is from Peter and it was delivered yesterday.
 1	Ова	ова	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=Ova|LTranslit=ova
 2	писмо	писмо	NOUN	_	Animacy=Inan|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	Translit=pismo|LTranslit=pismo
 3	е	сум	_	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Translit=e|LTranslit=sum
@@ -259,6 +278,7 @@
 # sent_id = cairo20
 # text = Таа израсна во Париз, главниот град на Франција.
 # translit = Taa izrasna vo Pariz, glavniot grad na Francija.
+# text_en = She grew up in Paris, the capital of France.
 1	Таа	таа	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Taa|LTranslit=taa
 2	израсна	израсна	_	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=izrasna|LTranslit=izrasna
 3	во	во	ADP	_	_	4	case	_	Translit=vo|LTranslit=vo
