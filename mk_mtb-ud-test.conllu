@@ -49,7 +49,7 @@
 2	да	да	PART	_	_	4	mark	_	Translit=da|LTranslit=da
 3	си	се	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	Translit=si|LTranslit=se
 4	одиш	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	Translit=odiš|LTranslit=odi|SpaceAfter=No
-5	?	?	PUNCT	_	PunctType=Qest	1	punct	_	Translit=?|LTranslit=?
+5	?	?	PUNCT	_	_	1	punct	_	Translit=?|LTranslit=?
 
 # newpar id = cairo05
 # sent_id = cairo05
@@ -57,11 +57,11 @@
 # translit = Sem, otvori go prozorecot!
 # text_en = Sam, open the window!
 1	Сем	сем	PROPN	_	Gender=Masc|Number=Sing	3	vocative	_	Translit=Sem|LTranslit=sem|SpaceAfter=No
-2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	Translit=,|LTranslit=,
+2	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
 3	отвори	отвори	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	Translit=otvori|LTranslit=otvori
 4	го	јас	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=go|LTranslit=jas
 5	прозорецот	прозорец	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	Translit=prozorecot|LTranslit=prozorec|SpaceAfter=No
-6	!	!	PUNCT	_	PunctType=Excl	3	punct	_	Translit=!|LTranslit=!
+6	!	!	PUNCT	_	_	3	punct	_	Translit=!|LTranslit=!
 
 # newpar id = cairo06
 # sent_id = cairo06
@@ -76,7 +76,7 @@
 6	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	Translit=ja|LTranslit=jas
 7	измие	измие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=izmie|LTranslit=izmie
 8	колата	кола	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	Translit=kolata|LTranslit=kola|SpaceAfter=No
-9	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
+9	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo07
 # sent_id = cairo07
@@ -90,7 +90,7 @@
 5	исфарба	исфарба	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=isfarba|LTranslit=isfarba
 6	оградата	ограда	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	Translit=ogradata|LTranslit=ograda
 7	црвено	црвено	ADV	_	Degree=Pos	5	xcomp	_	Translit=crveno|LTranslit=crveno|SpaceAfter=No
-8	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
+8	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo08
 # sent_id = cairo08
@@ -103,7 +103,7 @@
 4	позабавен	забавен	ADJ	_	Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	Translit=pozabaven|LTranslit=zabaven
 5	од	од	ADP	_	_	6	case	_	Translit=od|LTranslit=od
 6	твојот	твој	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	obl	_	Translit=tvojot|LTranslit=tvoj|SpaceAfter=No
-7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	Translit=.|LTranslit=.
+7	.	.	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo09
 # sent_id = cairo09
@@ -113,14 +113,14 @@
 1	Мери	мери	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	Translit=Meri|LTranslit=meri
 2	освои	освои	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=osvoi|LTranslit=osvoi
 3	бронза	бронза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	Translit=bronza|LTranslit=bronza|SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	Translit=,|LTranslit=,
+4	,	,	PUNCT	_	_	5	punct	_	Translit=,|LTranslit=,
 5	Петар	петар	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	Translit=Petar|LTranslit=petar
 6	сребро	сребро	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	orphan	_	Translit=srebro|LTranslit=srebro|SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	9	punct	_	Translit=,|LTranslit=,
+7	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
 8	а	а	CCONJ	_	_	9	cc	_	Translit=a|LTranslit=a
 9	Џејн	џејн	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	Translit=DŽejn|LTranslit=džejn
 10	злато	злато	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	orphan	_	Translit=zlato|LTranslit=zlato|SpaceAfter=No
-11	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
+11	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo10
 # sent_id = cairo10
@@ -133,7 +133,7 @@
 4	или	или	CCONJ	_	_	5	cc	_	Translit=ili|LTranslit=ili
 5	мала	мал	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	Translit=mala|LTranslit=mal
 6	држава	држава	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	Translit=država|LTranslit=država|SpaceAfter=No
-7	?	?	PUNCT	_	PunctType=Qest	6	punct	_	Translit=?|LTranslit=?
+7	?	?	PUNCT	_	_	6	punct	_	Translit=?|LTranslit=?
 
 # newpar id = cairo11
 # sent_id = cairo11
@@ -151,7 +151,7 @@
 9	да	да	PART	_	_	11	mark	_	Translit=da|LTranslit=da
 10	бидат	биде	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	Translit=bidat|LTranslit=bide
 11	одбрани	одбран	ADJ	_	Aspect=Perf|Definite=Ind|Number=Plur|VerbForm=Part|Voice=Pass	8	xcomp	_	Translit=odbrani|LTranslit=odbran|SpaceAfter=No
-12	.	.	PUNCT	_	PunctType=Peri	8	punct	_	Translit=.|LTranslit=.
+12	.	.	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo12
 # sent_id = cairo12
@@ -163,7 +163,7 @@
 3	кој	кој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	Translit=koj|LTranslit=koj
 4	го	јас	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	5	obj	_	Translit=go|LTranslit=jas
 5	напишал	напише	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	Translit=napišal|LTranslit=napiše|SpaceAfter=No
-6	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
+6	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo13
 # sent_id = cairo13
@@ -172,7 +172,7 @@
 # text_en = What are you looking at?
 1	Што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	2	obj	_	Translit=Što|LTranslit=što
 2	гледаш	гледа	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=gledaš|LTranslit=gleda|SpaceAfter=No
-3	?	?	PUNCT	_	PunctType=Qest	2	punct	_	Translit=?|LTranslit=?
+3	?	?	PUNCT	_	_	2	punct	_	Translit=?|LTranslit=?
 
 # newpar id = cairo14
 # sent_id = cairo14
@@ -185,7 +185,7 @@
 4	можеш	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	Translit=možeš|LTranslit=može
 5	да	да	PART	_	_	6	mark	_	Translit=da|LTranslit=da
 6	дојдеш	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	xcomp	_	Translit=dojdeš|LTranslit=dojde|SpaceAfter=No
-7	?	?	PUNCT	_	PunctType=Qest	2	punct	_	Translit=?|LTranslit=?
+7	?	?	PUNCT	_	_	2	punct	_	Translit=?|LTranslit=?
 
 # newpar id = cairo15
 # sent_id = cairo15
@@ -195,14 +195,14 @@
 1	Тој	јас	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Toj|LTranslit=jas
 2	купи	купи	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=kupi|LTranslit=kupi
 3	автомобил	автомобил	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	Translit=avtomobil|LTranslit=avtomobil|SpaceAfter=No
-4	,	,	PUNCT	_	PunctType=Comm	7	punct	_	Translit=,|LTranslit=,
+4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 5	но	но	CCONJ	_	_	7	cc	_	Translit=no|LTranslit=no
 6	неговиот	негов	DET	_	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	Translit=negoviot|LTranslit=negov
 7	брат	брат	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	Translit=brat|LTranslit=brat
-8	-	-	PUNCT	_	PunctType=Dash	10	punct	_	Translit=-|LTranslit=-
+8	-	-	PUNCT	_	_	10	punct	_	Translit=-|LTranslit=-
 9	само	само	ADV	_	_	10	advmod	_	Translit=samo|LTranslit=samo
 10	велосипед	велосипед	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	orphan	_	Translit=velosiped|LTranslit=velosiped|SpaceAfter=No
-11	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
+11	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo16
 # sent_id = cairo16
@@ -219,7 +219,7 @@
 8	излегоа	излезе	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Translit=izlegoa|LTranslit=izleze
 9	од	од	ADP	_	_	10	case	_	Translit=od|LTranslit=od
 10	собата	соба	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	Translit=sobata|LTranslit=soba|SpaceAfter=No
-11	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
+11	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo17
 # sent_id = cairo17
@@ -232,7 +232,7 @@
 4	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=jas
 5	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	Translit=napravi|LTranslit=napravi
 6	фризурата	фризура	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	Translit=frizurata|LTranslit=frizura|SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	15	punct	_	Translit=,|LTranslit=,
+7	,	,	PUNCT	_	_	15	punct	_	Translit=,|LTranslit=,
 8	но	но	CCONJ	_	_	15	cc	_	Translit=no|LTranslit=no
 9	дента	дента	ADV	_	Degree=Pos	15	advmod	_	Translit=denta|LTranslit=denta
 10	од	од	ADP	_	_	12	case	_	Translit=od|LTranslit=od
@@ -241,7 +241,7 @@
 13	не	не	PART	_	PartType=Neg	15	advmod	_	Translit=ne|LTranslit=ne
 14	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	Translit=ja|LTranslit=jas
 15	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	Translit=napravi|LTranslit=napravi|SpaceAfter=No
-16	.	.	PUNCT	_	PunctType=Peri	1	punct	_	Translit=.|LTranslit=.
+16	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo18
 # sent_id = cairo18
@@ -256,7 +256,7 @@
 6	бидејќи	бидејќи	SCONJ	_	_	7	mark	_	Translit=bidejťi|LTranslit=bidejťi
 7	трчаше	трча	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	2	advcl	_	Translit=trčaše|LTranslit=trča
 8	пребрзо	брзо	ADV	_	Degree=Abs	7	advmod	_	Translit=prebrzo|LTranslit=brzo|SpaceAfter=No
-9	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
+9	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo19
 # sent_id = cairo19
@@ -272,7 +272,7 @@
 7	беше	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	8	aux:pass	_	Translit=beše|LTranslit=sum
 8	испорачано	испорачан	VERB	_	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	Translit=isporačano|LTranslit=isporačan
 9	вчера	вчера	ADV	_	Degree=Pos	8	advmod	_	Translit=včera|LTranslit=včera|SpaceAfter=No
-10	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
+10	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo20
 # sent_id = cairo20
@@ -283,10 +283,10 @@
 2	израсна	израсна	_	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=izrasna|LTranslit=izrasna
 3	во	во	ADP	_	_	4	case	_	Translit=vo|LTranslit=vo
 4	Париз	париз	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	Translit=Pariz|LTranslit=pariz|SpaceAfter=No
-5	,	,	PUNCT	_	PunctType=Comm	7	punct	_	Translit=,|LTranslit=,
+5	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 6	главниот	главен	ADJ	_	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Translit=glavniot|LTranslit=glaven
 7	град	град	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	Translit=grad|LTranslit=grad
 8	на	на	ADP	_	_	9	case	_	Translit=na|LTranslit=na
 9	Франција	франција	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	Translit=Francija|LTranslit=francija|SpaceAfter=No
-10	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
+10	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 

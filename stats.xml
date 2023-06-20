@@ -31,7 +31,7 @@
     <tag name="_">1</tag><!-- израсна -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="43">
+  <feats unique="38">
     <feat name="Aspect" value="Imp" upos="AUX,VERB">21</feat><!-- е, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, знаат, мислиш -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB,_">17</feat><!-- направи, дојдеш, излегоа, измие, израсна, испорачано, исфарба, купи, напиша, напишал -->
     <feat name="Case" value="Acc" upos="PRON">11</feat><!-- го, ја, се, Што -->
@@ -62,11 +62,6 @@
     <feat name="PronType" value="Ind" upos="DET">1</feat><!-- некоја -->
     <feat name="PronType" value="Int" upos="ADV,PRON">3</feat><!-- Кога, Што, кој -->
     <feat name="PronType" value="Prs" upos="DET,PRON">21</feat><!-- го, ја, Тој, се, си, Мојот, Таа, му, неговиот, својот -->
-    <feat name="PunctType" value="Comm" upos="PUNCT">6</feat><!-- , -->
-    <feat name="PunctType" value="Dash" upos="PUNCT">1</feat><!-- - -->
-    <feat name="PunctType" value="Excl" upos="PUNCT">1</feat><!-- ! -->
-    <feat name="PunctType" value="Peri" upos="PUNCT">12</feat><!-- . -->
-    <feat name="PunctType" value="Qest" upos="PUNCT">4</feat><!-- ? -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">5</feat><!-- се, си, својот -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">5</feat><!-- Требаше, беше, можеа, можев, трчаше -->
     <feat name="Tense" value="Past" upos="VERB,_">12</feat><!-- направи, излегоа, израсна, исфарба, купи, напиша, напишал, натера, обиде, освои -->
