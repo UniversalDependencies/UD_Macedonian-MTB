@@ -263,7 +263,7 @@
 # text = Ова писмо е од Петар и беше испорачано вчера.
 # translit = Ova pismo e od Petar i beše isporačano včera.
 # text_en = This letter is from Peter and it was delivered yesterday.
-1	Ова	ова	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=Ova|LTranslit=ova
+1	Ова	ова	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	Translit=Ova|LTranslit=ova
 2	писмо	писмо	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	Translit=pismo|LTranslit=pismo
 3	е	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Translit=e|LTranslit=sum
 4	од	од	ADP	_	_	5	case	_	Translit=od|LTranslit=od
