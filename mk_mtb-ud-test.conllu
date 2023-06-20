@@ -6,7 +6,7 @@
 # text_en = The girl wrote a letter to her friend.
 1	Девојката	девојка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	Translit=Devojkata|LTranslit=devojka
 2	му	јас	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=mu|LTranslit=jas
-3	напиша	напишe	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=napiša|LTranslit=napiše
+3	напиша	напишe	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=napiša|LTranslit=napiše
 4	писмо	писмо	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	Translit=pismo|LTranslit=pismo
 5	на	на	ADP	_	_	7	case	_	Translit=na|LTranslit=na
 6	својот	свој	DET	_	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	Translit=svojot|LTranslit=svoj
@@ -18,9 +18,9 @@
 # text = Мислам дека врне.
 # translit = Mislam deka vrne.
 # text_en = I think that it is raining.
-1	Мислам	мисли	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Mislam|LTranslit=misli
+1	Мислам	мисли	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Mislam|LTranslit=misli
 2	дека	дека	SCONJ	_	_	3	mark	_	Translit=deka|LTranslit=deka
-3	врне	врне	VERB	_	Aspect=Imp|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	Translit=vrne|LTranslit=vrne
+3	врне	врне	VERB	_	Aspect=Imp|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	Translit=vrne|LTranslit=vrne
 4	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo03
@@ -30,14 +30,14 @@
 # text_en = He tried to stop smoking and drinking.
 1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Translit=Toj|LTranslit=toj
 2	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	Translit=se|LTranslit=se
-3	обиде	обиде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=obide|LTranslit=obide
+3	обиде	обиде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=obide|LTranslit=obide
 4	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
-5	престане	престане	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	Translit=prestane|LTranslit=prestane
+5	престане	престане	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	Translit=prestane|LTranslit=prestane
 6	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
-7	пуши	пуши	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	Translit=puši|LTranslit=puši
+7	пуши	пуши	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	Translit=puši|LTranslit=puši
 8	и	и	CONJ	_	_	7	cc	_	Translit=i|LTranslit=i
 9	да	да	PART	_	_	10	mark	_	Translit=da|LTranslit=da
-10	пие	пие	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Translit=pie|LTranslit=pie
+10	пие	пие	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Translit=pie|LTranslit=pie
 11	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo04
@@ -45,10 +45,10 @@
 # text = Сакаш да си одиш?
 # translit = Sakaš da si odiš?
 # text_en = Do you want to go?
-1	Сакаш	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Sakaš|LTranslit=saka
+1	Сакаш	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Sakaš|LTranslit=saka
 2	да	да	PART	_	_	4	mark	_	Translit=da|LTranslit=da
 3	си	се	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	Translit=si|LTranslit=se
-4	одиш	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	Translit=odiš|LTranslit=odi
+4	одиш	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	Translit=odiš|LTranslit=odi
 5	?	?	PUNCT	_	PunctType=Qest	1	punct	_	Translit=?|LTranslit=?
 
 # newpar id = cairo05
@@ -58,7 +58,7 @@
 # text_en = Sam, open the window!
 1	Сем	сем	PROPN	_	Gender=Masc|Number=Sing	3	vocative	_	Translit=Sem|LTranslit=sem
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	Translit=,|LTranslit=,
-3	отвори	отвори	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	_	Translit=otvori|LTranslit=otvori
+3	отвори	отвори	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	Translit=otvori|LTranslit=otvori
 4	го	јас	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=go|LTranslit=jas
 5	прозорецот	прозорец	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	Translit=prozorecot|LTranslit=prozorec
 6	!	!	PUNCT	_	PunctType=Excl	3	punct	_	Translit=!|LTranslit=!
@@ -69,12 +69,12 @@
 # translit = Go natera mažot ì da ja izmie kolata.
 # text_en = She made her husband wash the car.
 1	Го	јас	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	Translit=Go|LTranslit=jas
-2	натера	натера	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=natera|LTranslit=natera
+2	натера	натера	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=natera|LTranslit=natera
 3	мажот	маж	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	Translit=mažot|LTranslit=maž
 4	ѝ	јас	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Translit=ì|LTranslit=jas
 5	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
 6	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	Translit=ja|LTranslit=jas
-7	измие	измие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=izmie|LTranslit=izmie
+7	измие	измие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=izmie|LTranslit=izmie
 8	колата	кола	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	Translit=kolata|LTranslit=kola
 9	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
 
@@ -87,7 +87,7 @@
 2	на	на	ADP	_	_	3	case	_	Translit=na|LTranslit=na
 3	Петар	петар	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	Translit=Petar|LTranslit=petar
 4	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=jas
-5	исфарба	исфарба	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=isfarba|LTranslit=isfarba
+5	исфарба	исфарба	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=isfarba|LTranslit=isfarba
 6	оградата	ограда	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	Translit=ogradata|LTranslit=ograda
 7	црвено	црвено	ADV	_	Degree=Pos	5	xcomp	_	Translit=crveno|LTranslit=crveno
 8	.	.	PUNCT	_	PunctType=Peri	5	punct	_	Translit=.|LTranslit=.
@@ -111,7 +111,7 @@
 # translit = Meri osvoi bronza, Petar srebro, a DŽejn zlato.
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	Мери	мери	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	Translit=Meri|LTranslit=meri
-2	освои	освои	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=osvoi|LTranslit=osvoi
+2	освои	освои	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=osvoi|LTranslit=osvoi
 3	бронза	бронза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	Translit=bronza|LTranslit=bronza
 4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	Translit=,|LTranslit=,
 5	Петар	петар	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	Translit=Petar|LTranslit=petar

@@ -32,7 +32,7 @@
     <tag name="_">1</tag><!-- израсна -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="45">
+  <feats unique="44">
     <feat name="Animacy" value="Hum" upos="NOUN">1</feat><!-- пријател -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">21</feat><!-- е, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, знаат, мислиш -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB,_">17</feat><!-- направи, дојдеш, излегоа, измие, израсна, испорачано, исфарба, купи, напиша, напишал -->
@@ -59,7 +59,6 @@
     <feat name="Person" value="2" upos="DET,VERB">8</feat><!-- Сакаш, гледаш, дојдеш, мислиш, можеш, одиш, отвори, твојот -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB,_">39</feat><!-- ја, го, е, Тој, направи, Таа, Требаше, беше, бидат, врне -->
     <feat name="Polarity" value="Neg" upos="PART">3</feat><!-- не -->
-    <feat name="Polarity" value="Pos" upos="VERB">14</feat><!-- Мислам, Сакаш, врне, измие, исфарба, напиша, натера, обиде, одиш, освои -->
     <feat name="Poss" value="Yes" upos="DET">4</feat><!-- Мојот, неговиот, својот, твојот -->
     <feat name="PronType" value="Dem" upos="DET">1</feat><!-- Ова -->
     <feat name="PronType" value="Ind" upos="DET">1</feat><!-- некоја -->
