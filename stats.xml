@@ -31,7 +31,7 @@
     <tag name="_">1</tag><!-- израсна -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="36">
     <feat name="Aspect" value="Imp" upos="AUX,VERB">21</feat><!-- е, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, знаат, мислиш -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB,_">17</feat><!-- направи, дојдеш, излегоа, измие, израсна, испорачано, исфарба, купи, напиша, напишал -->
     <feat name="Case" value="Acc" upos="PRON">11</feat><!-- го, ја, се, Што -->
@@ -51,12 +51,10 @@
     <feat name="Number" value="Plur" upos="ADJ,AUX,VERB">6</feat><!-- бидат, знаат, излегоа, можеа, одбрани, прегрнаа -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB,_">91</feat><!-- Петар, го, ја, Мери, е, Тој, направи, писмо, Џејн, Браун -->
     <feat name="Number[psor]" value="Sing" upos="DET">1</feat><!-- неговиот -->
-    <feat name="PartType" value="Inf" upos="PART">2</feat><!-- да -->
-    <feat name="PartType" value="Neg" upos="PART">1</feat><!-- не -->
     <feat name="Person" value="1" upos="DET,VERB">4</feat><!-- Мислам, Мојот, можев, следам -->
     <feat name="Person" value="2" upos="DET,VERB">8</feat><!-- Сакаш, гледаш, дојдеш, мислиш, можеш, одиш, отвори, твојот -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB,_">39</feat><!-- ја, го, е, Тој, направи, Таа, Требаше, беше, бидат, врне -->
-    <feat name="Polarity" value="Neg" upos="PART">3</feat><!-- не -->
+    <feat name="Polarity" value="Neg" upos="PART">4</feat><!-- не -->
     <feat name="Poss" value="Yes" upos="DET">4</feat><!-- Мојот, неговиот, својот, твојот -->
     <feat name="PronType" value="Dem" upos="DET">1</feat><!-- Ова -->
     <feat name="PronType" value="Ind" upos="DET">1</feat><!-- некоја -->

@@ -227,7 +227,7 @@
 # translit = Trebaše da si ja napravi frizurata, no denta od nekoja pričina ne ja napravi.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Требаше	треба	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=Trebaše|LTranslit=treba
-2	да	да	PART	_	PartType=Inf	5	mark	_	Translit=da|LTranslit=da
+2	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
 3	си	се	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	5	expl	_	Translit=si|LTranslit=se
 4	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=jas
 5	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	Translit=napravi|LTranslit=napravi
@@ -238,7 +238,7 @@
 10	од	од	ADP	_	_	12	case	_	Translit=od|LTranslit=od
 11	некоја	некој	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	Translit=nekoja|LTranslit=nekoj
 12	причина	причина	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	Translit=pričina|LTranslit=pričina
-13	не	не	PART	_	PartType=Neg	15	advmod	_	Translit=ne|LTranslit=ne
+13	не	не	PART	_	Polarity=Neg	15	advmod	_	Translit=ne|LTranslit=ne
 14	ја	јас	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	Translit=ja|LTranslit=jas
 15	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	Translit=napravi|LTranslit=napravi|SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
@@ -250,7 +250,7 @@
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	Не	не	PART	_	Polarity=Neg	2	advmod	_	Translit=Ne|LTranslit=ne
 2	можев	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=možev|LTranslit=može
-3	да	да	PART	_	PartType=Inf	5	mark	_	Translit=da|LTranslit=da
+3	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
 4	го	јас	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Translit=go|LTranslit=jas
 5	следам	следи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=sledam|LTranslit=sledi
 6	бидејќи	бидејќи	SCONJ	_	_	7	mark	_	Translit=bidejťi|LTranslit=bidejťi
