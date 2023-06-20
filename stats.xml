@@ -37,7 +37,7 @@
     <feat name="Aspect" value="Perf" upos="ADJ,VERB,_">17</feat><!-- направи, дојдеш, излегоа, измие, израсна, испорачано, исфарба, купи, напиша, напишал -->
     <feat name="Case" value="Acc" upos="PRON">11</feat><!-- го, ја, се, Што -->
     <feat name="Case" value="Dat" upos="PRON">4</feat><!-- си, му, ѝ -->
-    <feat name="Case" value="Nom" upos="DET,NOUN,PRON">6</feat><!-- Тој, Ова, Таа, кој, пријател -->
+    <feat name="Case" value="Nom" upos="DET,PRON">5</feat><!-- Тој, Ова, Таа, кој -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NOUN">14</feat><!-- Девојката, Мојот, Соседот, главниот, злато, колата, мажот, оградата, пријател, прозорецот -->
     <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,VERB">16</feat><!-- писмо, автомобил, брат, бронза, велосипед, голема, град, држава, испорачано, мала -->
     <feat name="Degree" value="Abs" upos="ADV">1</feat><!-- пребрзо -->

@@ -10,7 +10,7 @@
 4	писмо	писмо	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	Translit=pismo|LTranslit=pismo
 5	на	на	ADP	_	_	7	case	_	Translit=na|LTranslit=na
 6	својот	свој	DET	_	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	Translit=svojot|LTranslit=svoj
-7	пријател	пријател	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	Translit=prijatel|LTranslit=prijatel
+7	пријател	пријател	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	Translit=prijatel|LTranslit=prijatel
 8	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo02
