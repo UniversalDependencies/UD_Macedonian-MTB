@@ -35,7 +35,7 @@
 5	престане	престане	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	Translit=prestane|LTranslit=prestane
 6	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
 7	пуши	пуши	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	xcomp	_	Translit=puši|LTranslit=puši
-8	и	и	CONJ	_	_	7	cc	_	Translit=i|LTranslit=i
+8	и	и	CCONJ	_	_	7	cc	_	Translit=i|LTranslit=i
 9	да	да	PART	_	_	10	mark	_	Translit=da|LTranslit=da
 10	пие	пие	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Translit=pie|LTranslit=pie|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
@@ -117,7 +117,7 @@
 5	Петар	петар	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	Translit=Petar|LTranslit=petar
 6	сребро	сребро	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	orphan	_	Translit=srebro|LTranslit=srebro|SpaceAfter=No
 7	,	,	PUNCT	_	PunctType=Comm	9	punct	_	Translit=,|LTranslit=,
-8	а	а	CONJ	_	_	9	cc	_	Translit=a|LTranslit=a
+8	а	а	CCONJ	_	_	9	cc	_	Translit=a|LTranslit=a
 9	Џејн	џејн	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	Translit=DŽejn|LTranslit=džejn
 10	злато	злато	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	orphan	_	Translit=zlato|LTranslit=zlato|SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	2	punct	_	Translit=.|LTranslit=.
@@ -130,7 +130,7 @@
 1	Игуацу	игуацу	PROPN	_	Gender=Neut|Number=Sing	6	nsubj	_	Translit=Iguacu|LTranslit=iguacu
 2	е	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Translit=e|LTranslit=sum
 3	голема	голем	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	Translit=golema|LTranslit=golem
-4	или	или	CONJ	_	_	5	cc	_	Translit=ili|LTranslit=ili
+4	или	или	CCONJ	_	_	5	cc	_	Translit=ili|LTranslit=ili
 5	мала	мал	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	Translit=mala|LTranslit=mal
 6	држава	држава	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	Translit=država|LTranslit=država|SpaceAfter=No
 7	?	?	PUNCT	_	PunctType=Qest	6	punct	_	Translit=?|LTranslit=?
@@ -140,10 +140,10 @@
 # text = Ниту Петар Смит ниту Мери Браун не можеа да бидат одбрани.
 # translit = Nitu Petar Smit nitu Meri Braun ne možea da bidat odbrani.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
-1	Ниту	ниту	CONJ	_	_	2	cc	_	Translit=Nitu|LTranslit=nitu
+1	Ниту	ниту	CCONJ	_	_	2	cc	_	Translit=Nitu|LTranslit=nitu
 2	Петар	петар	PROPN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	Translit=Petar|LTranslit=petar
 3	Смит	смит	PROPN	_	Gender=Masc|Number=Sing	2	flat	_	Translit=Smit|LTranslit=smit
-4	ниту	ниту	CONJ	_	_	5	cc	_	Translit=nitu|LTranslit=nitu
+4	ниту	ниту	CCONJ	_	_	5	cc	_	Translit=nitu|LTranslit=nitu
 5	Мери	мери	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	Translit=Meri|LTranslit=meri
 6	Браун	браун	PROPN	_	Gender=Fem|Number=Sing	5	flat	_	Translit=Braun|LTranslit=braun
 7	не	не	PART	_	Polarity=Neg	8	advmod	_	Translit=ne|LTranslit=ne
@@ -210,11 +210,11 @@
 # translit = Petar i Meri se pregrnaa i potoa izlegoa od sobata.
 # text_en = Peter and Mary hugged each other and then left the room.
 1	Петар	петар	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	Translit=Petar|LTranslit=petar
-2	и	и	CONJ	_	_	3	cc	_	Translit=i|LTranslit=i
+2	и	и	CCONJ	_	_	3	cc	_	Translit=i|LTranslit=i
 3	Мери	мери	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	Translit=Meri|LTranslit=meri
 4	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	Translit=se|LTranslit=se
 5	прегрнаа	прегрне	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=pregrnaa|LTranslit=pregrne
-6	и	и	CONJ	_	_	8	cc	_	Translit=i|LTranslit=i
+6	и	и	CCONJ	_	_	8	cc	_	Translit=i|LTranslit=i
 7	потоа	потоа	ADV	_	_	8	advmod	_	Translit=potoa|LTranslit=potoa
 8	излегоа	излезе	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Translit=izlegoa|LTranslit=izleze
 9	од	од	ADP	_	_	10	case	_	Translit=od|LTranslit=od

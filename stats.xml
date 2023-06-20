@@ -14,13 +14,12 @@
   <forms unique="108" /><!-- ., да, ,, Петар, ?, го, и, не, од, ја, Мери, е, на, Тој, дека -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="15">
+  <tags unique="14">
     <tag name="ADJ">5</tag><!-- главен, голем, забавен, мал, одбран -->
     <tag name="ADP">8</tag><!-- од, на, во -->
     <tag name="ADV">7</tag><!-- брзо, вчера, дента, кога, потоа, само, црвено -->
     <tag name="AUX">5</tag><!-- сум, биде -->
-    <tag name="CCONJ">3</tag><!-- но, и -->
-    <tag name="CONJ">7</tag><!-- и, ниту, а, или -->
+    <tag name="CCONJ">10</tag><!-- и, ниту, но, а, или -->
     <tag name="DET">6</tag><!-- мој, негов, некој, ова, свој, твој -->
     <tag name="NOUN">21</tag><!-- писмо, автомобил, брат, бронза, велосипед, град, девојка, држава, злато, кола -->
     <tag name="PART">13</tag><!-- да, не -->
