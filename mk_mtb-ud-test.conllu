@@ -280,7 +280,7 @@
 # translit = Taa izrasna vo Pariz, glavniot grad na Francija.
 # text_en = She grew up in Paris, the capital of France.
 1	Таа	јас	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Taa|LTranslit=jas
-2	израсна	израсна	_	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=izrasna|LTranslit=izrasna
+2	израсна	израсна	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=izrasna|LTranslit=izrasna
 3	во	во	ADP	_	_	4	case	_	Translit=vo|LTranslit=vo
 4	Париз	париз	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	Translit=Pariz|LTranslit=pariz|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
