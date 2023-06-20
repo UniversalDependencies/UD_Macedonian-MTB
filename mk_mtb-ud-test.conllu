@@ -255,7 +255,7 @@
 5	следам	следи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=sledam|LTranslit=sledi
 6	бидејќи	бидејќи	SCONJ	_	_	7	mark	_	Translit=bidejťi|LTranslit=bidejťi
 7	трчаше	трча	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	2	advcl	_	Translit=trčaše|LTranslit=trča
-8	пребрзо	брзо	ADV	_	Degree=Abs	7	advmod	_	Translit=prebrzo|LTranslit=brzo|SpaceAfter=No
+8	пребрзо	брзо	ADV	_	Degree=Sup	7	advmod	_	Translit=prebrzo|LTranslit=brzo|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo19

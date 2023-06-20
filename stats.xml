@@ -39,9 +39,9 @@
     <feat name="Case" value="Nom" upos="DET,PRON">5</feat><!-- Тој, Ова, Таа, кој -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NOUN">14</feat><!-- Девојката, Мојот, Соседот, главниот, злато, колата, мажот, оградата, пријател, прозорецот -->
     <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,VERB">16</feat><!-- писмо, автомобил, брат, бронза, велосипед, голема, град, држава, испорачано, мала -->
-    <feat name="Degree" value="Abs" upos="ADV">1</feat><!-- пребрзо -->
     <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- позабавен -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">6</feat><!-- вчера, главниот, голема, дента, мала, црвено -->
+    <feat name="Degree" value="Sup" upos="ADV">1</feat><!-- пребрзо -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">24</feat><!-- ја, Мери, Џејн, Браун, Девојката, Таа, Франција, бронза, голема, држава -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">29</feat><!-- Петар, го, Тој, Мојот, Париз, Сем, Смит, Соседот, автомобил, брат -->
     <feat name="Gender" value="Neut" upos="DET,NOUN,PRON,PROPN,VERB">9</feat><!-- писмо, Игуацу, Ова, Што, го, злато, испорачано, сребро -->
