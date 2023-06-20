@@ -32,8 +32,7 @@
     <tag name="_">1</tag><!-- израсна -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="44">
-    <feat name="Animacy" value="Hum" upos="NOUN">1</feat><!-- пријател -->
+  <feats unique="43">
     <feat name="Aspect" value="Imp" upos="AUX,VERB">21</feat><!-- е, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, знаат, мислиш -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB,_">17</feat><!-- направи, дојдеш, излегоа, измие, израсна, испорачано, исфарба, купи, напиша, напишал -->
     <feat name="Case" value="Acc" upos="PRON">11</feat><!-- го, ја, се, Што -->
