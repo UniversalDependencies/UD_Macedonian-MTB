@@ -5,96 +5,125 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>20</sentences><tokens>171</tokens><words>171</words><fused>0</fused></total>
+    <total><sentences>155</sentences><tokens>1360</tokens><words>1360</words><fused>0</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>20</sentences><tokens>171</tokens><words>171</words><fused>0</fused></test>
+    <test><sentences>155</sentences><tokens>1360</tokens><words>1360</words><fused>0</fused></test>
   </size>
-  <lemmas unique="99" /><!-- ., јас, да, ,, петар, ?, и, не, од, се, сум, мери, може, на, дека -->
-  <forms unique="108" /><!-- ., да, ,, Петар, ?, го, и, не, од, ја, Мери, е, на, Тој, дека -->
+  <lemmas unique="475" /><!-- ., ,, се, не, да, на, што, ќе, и, сум, го, или, јас, дојде, за -->
+  <forms unique="550" /><!-- ., ,, се, не, да, на, што, ќе, и, го, или, ја, за, а, ми -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="14">
-    <tag name="ADJ">5</tag><!-- главен, голем, забавен, мал, одбран -->
-    <tag name="ADP">8</tag><!-- од, на, во -->
-    <tag name="ADV">7</tag><!-- брзо, вчера, дента, кога, потоа, само, црвено -->
-    <tag name="AUX">5</tag><!-- сум, биде -->
-    <tag name="CCONJ">10</tag><!-- и, ниту, но, а, или -->
-    <tag name="DET">6</tag><!-- мој, негов, некој, ова, свој, твој -->
-    <tag name="NOUN">21</tag><!-- писмо, автомобил, брат, бронза, велосипед, град, девојка, држава, злато, кола -->
-    <tag name="PART">13</tag><!-- да, не -->
-    <tag name="PRON">19</tag><!-- јас, се, кој, тој, што -->
-    <tag name="PROPN">15</tag><!-- петар, мери, браун, игуацу, париз, сем, смит, франција, џејн -->
-    <tag name="PUNCT">27</tag><!-- ., ,, ?, !, - -->
-    <tag name="SCONJ">3</tag><!-- дека, бидејќи -->
-    <tag name="VERB">31</tag><!-- може, мисли, направи, врне, гледа, дојде, знае, излезе, измие, испорачан -->
-    <tag name="_">1</tag><!-- израсна -->
+  <tags unique="15">
+    <tag name="ADJ">43</tag><!-- нов, голем, добар, минат, прекрасен, утрешен, учебен, болен, вознемирен, главен -->
+    <tag name="ADP">85</tag><!-- на, за, во, од, со, до, зад, кај, по, како -->
+    <tag name="ADV">57</tag><!-- вчера, како, дома, кога, само, многу, овде, пак, потоа, бавно -->
+    <tag name="AUX">63</tag><!-- ќе, сум, да, биде, дека, бев, било, би, може, нема -->
+    <tag name="CCONJ">83</tag><!-- и, или, а, ниту, но, па, ем, ту, час, што -->
+    <tag name="DET">20</tag><!-- мој, некој, ова, она, еден, каков, негов, нејзин, свој, такво -->
+    <tag name="INTJ">2</tag><!-- мама, море -->
+    <tag name="NOUN">181</tag><!-- дете, година, натпревар, јакна, автомобил, кино, книга, кола, крај, филм -->
+    <tag name="NUM">7</tag><!-- два, 15, един, неколку, пет, три -->
+    <tag name="PART">65</tag><!-- не, да, ли, нека -->
+    <tag name="PRON">184</tag><!-- се, го, јас, ми, што, ме, тие, му, ја, ти -->
+    <tag name="PROPN">27</tag><!-- петар, Мери, марија, марко, јован, Џејн, Браун, Игуацу, Париз, Сем -->
+    <tag name="PUNCT">221</tag><!-- ., ,, ?, !, -, –, “, „ -->
+    <tag name="SCONJ">34</tag><!-- што, дека, да, ако, бидејќи, де, додека, иако, каде, каков -->
+    <tag name="VERB">288</tag><!-- дојде, сака, сум, може, оди, јави, гледа, купи, студи, облече -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="36">
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">21</feat><!-- е, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, знаат, мислиш -->
-    <feat name="Aspect" value="Perf" upos="ADJ,VERB,_">17</feat><!-- направи, дојдеш, излегоа, измие, израсна, испорачано, исфарба, купи, напиша, напишал -->
-    <feat name="Case" value="Acc" upos="PRON">11</feat><!-- го, ја, се, Што -->
-    <feat name="Case" value="Dat" upos="PRON">4</feat><!-- си, му, ѝ -->
-    <feat name="Case" value="Nom" upos="DET,PRON">5</feat><!-- Тој, Ова, Таа, кој -->
-    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN">14</feat><!-- Девојката, Мојот, Соседот, главниот, злато, колата, мажот, оградата, пријател, прозорецот -->
-    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,VERB">16</feat><!-- писмо, автомобил, брат, бронза, велосипед, голема, град, држава, испорачано, мала -->
-    <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- позабавен -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">6</feat><!-- вчера, главниот, голема, дента, мала, црвено -->
+  <feats unique="49">
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">166</feat><!-- е, беше, студеше, сакам, Мислам, гледав, може, бев, било, врне -->
+    <feat name="Aspect" value="Perf" upos="ADJ,AUX,VERB">146</feat><!-- дојде, облеков, јави, биде, воодушеви, дојдеш, купи, направи, Влегов, даде -->
+    <feat name="Case" value="Acc" upos="AUX,PRON">68</feat><!-- го, се, ја, ме, ги, нѐ, Сѐ, Што, мене, нас -->
+    <feat name="Case" value="Dat" upos="PRON">35</feat><!-- ми, му, ти, ви, си, Им, ме, нè, нему, ни -->
+    <feat name="Case" value="Gen" upos="PRON">2</feat><!-- ме, ми -->
+    <feat name="Case" value="Nom" upos="DET,PRON">40</feat><!-- тие, Тој, ние, тоа, кој, Таа, којшто, она, Јас, Оваа -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON">99</feat><!-- го, тие, Натпреварот, моите, Детето, Ние, Сонцето, книгата, колата, мојот -->
+    <feat name="Definite" value="Ind" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">185</feat><!-- јакна, година, кино, Јован, Марија, Марко, авантури, автомобил, било, бронза -->
+    <feat name="Definite" value="Prox" upos="NOUN">1</feat><!-- работиве -->
+    <feat name="Degree" value="Abs" upos="ADJ">1</feat><!-- презадоволни -->
+    <feat name="Degree" value="Cmp" upos="ADJ">2</feat><!-- позабавен, расипаниот -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,VERB">60</feat><!-- вчера, голема, добро, многу, нова, овде, утрешниот, учебната, Јасно, Жал -->
     <feat name="Degree" value="Sup" upos="ADV">1</feat><!-- пребрзо -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">24</feat><!-- ја, Мери, Џејн, Браун, Девојката, Таа, Франција, бронза, голема, држава -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">29</feat><!-- Петар, го, Тој, Мојот, Париз, Сем, Смит, Соседот, автомобил, брат -->
-    <feat name="Gender" value="Neut" upos="DET,NOUN,PRON,PROPN,VERB">9</feat><!-- писмо, Игуацу, Ова, Што, го, злато, испорачано, сребро -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">109</feat><!-- ја, јакна, година, Мери, Таа, Марија, авантури, бронза, голема, една -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">172</feat><!-- го, му, Тој, Петар, кој, Натпреварот, крајот, Јован, Марко, автомобил -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">61</feat><!-- тоа, кино, Детето, било, го, дете, злато, место, она, писмо -->
     <feat name="Gender[psor]" value="Masc" upos="DET">1</feat><!-- неговиот -->
-    <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- направи, отвори -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB,_">33</feat><!-- е, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, дојдеш, знаат -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,VERB">6</feat><!-- бидат, знаат, излегоа, можеа, одбрани, прегрнаа -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB,_">91</feat><!-- Петар, го, ја, Мери, е, Тој, направи, писмо, Џејн, Браун -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">2</feat><!-- би, студеше -->
+    <feat name="Mood" value="Imp" upos="VERB">19</feat><!-- дојди, направи, јави, купи, Оди, Подготви, Сврти, отвори, поништив, посматрав -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">283</feat><!-- е, беше, дојде, облеков, ќе, сакам, Мислам, дојдеш, студеше, бев -->
+    <feat name="Mood" value="Int" upos="VERB">1</feat><!-- Знаеш -->
+    <feat name="Number" value="Count" upos="NOUN">4</feat><!-- дена, авиона, филма -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,VERB">136</feat><!-- тие, ги, ние, моите, авантури, ви, два, дојдат, забавуваат, играа -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">579</feat><!-- го, ми, ја, е, беше, дојде, ме, му, Тој, јакна -->
     <feat name="Number[psor]" value="Sing" upos="DET">1</feat><!-- неговиот -->
-    <feat name="Person" value="1" upos="DET,VERB">4</feat><!-- Мислам, Мојот, можев, следам -->
-    <feat name="Person" value="2" upos="DET,VERB">8</feat><!-- Сакаш, гледаш, дојдеш, мислиш, можеш, одиш, отвори, твојот -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB,_">39</feat><!-- ја, го, е, Тој, направи, Таа, Требаше, беше, бидат, врне -->
-    <feat name="Polarity" value="Neg" upos="PART">4</feat><!-- не -->
-    <feat name="Poss" value="Yes" upos="DET">4</feat><!-- Мојот, неговиот, својот, твојот -->
-    <feat name="PronType" value="Dem" upos="DET">1</feat><!-- Ова -->
-    <feat name="PronType" value="Ind" upos="DET">1</feat><!-- некоја -->
-    <feat name="PronType" value="Int" upos="ADV,PRON">3</feat><!-- Кога, Што, кој -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">21</feat><!-- го, ја, Тој, се, си, Мојот, Таа, му, неговиот, својот -->
-    <feat name="Reflex" value="Yes" upos="DET,PRON">5</feat><!-- се, си, својот -->
-    <feat name="Tense" value="Imp" upos="AUX,VERB">5</feat><!-- Требаше, беше, можеа, можев, трчаше -->
-    <feat name="Tense" value="Past" upos="VERB,_">12</feat><!-- направи, излегоа, израсна, исфарба, купи, напиша, напишал, натера, обиде, освои -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">18</feat><!-- е, Мислам, Сакаш, бидат, врне, гледаш, дојдеш, знаат, измие, мислиш -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB,_">36</feat><!-- е, направи, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, дојдеш -->
-    <feat name="VerbForm" value="Part" upos="ADJ,VERB">2</feat><!-- испорачано, одбрани -->
-    <feat name="Voice" value="Act" upos="AUX,VERB,_">36</feat><!-- е, направи, Мислам, Сакаш, Требаше, беше, бидат, врне, гледаш, дојдеш -->
-    <feat name="Voice" value="Pass" upos="ADJ,VERB">2</feat><!-- испорачано, одбрани -->
+    <feat name="NumType" value="Card" upos="ADV,NUM">12</feat><!-- два, 15, една, колкава, колку, многу, неколку, пет, толкава, толку -->
+    <feat name="NumType" value="Ord" upos="ADJ">1</feat><!-- првата -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">137</feat><!-- ми, ме, облеков, ние, сакам, Мислам, бев, гледав, моите, Влегов -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">46</feat><!-- ти, дојдеш, дојди, јави, ви, купи, можеш, сакаш, сте, Знаеш -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">230</feat><!-- го, ја, е, беше, дојде, му, тие, Тој, ги, студеше -->
+    <feat name="Polarity" value="Neg" upos="CCONJ,PART">40</feat><!-- не, ниту -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">13</feat><!-- моите, мојот, Неговата, ме, ми, му, неговиот, нејзиниот, својот, твојот -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">16</feat><!-- тоа, она, Ова, Оваа, Таму, Тие, така, тогаш, толкава, толку -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">5</feat><!-- една, некои, неколку, некоја, нешто -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">14</feat><!-- кога, кој, како, Што, каде, каков, колкава, колку, такво -->
+    <feat name="PronType" value="Neg" upos="ADV,PRON">2</feat><!-- никогаш, ништо -->
+    <feat name="PronType" value="Prs" upos="AUX,DET,PRON">150</feat><!-- се, го, ми, ја, ме, му, тие, Тој, ти, ги -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">5</feat><!-- којшто, Кој, како, каков -->
+    <feat name="PronType" value="Tot" upos="PRON">2</feat><!-- Сѐ, сите -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON">39</feat><!-- се, си, сè, својот -->
+    <feat name="Tense" value="Fut" upos="VERB">5</feat><!-- договориме, дојдат, купам, паднеш, положиш -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">21</feat><!-- студеше, беше, Гледавме, Одеа, Требаше, Учев, криеше, мачеше, можеа, можев -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">111</feat><!-- беше, облеков, воодушеви, дојде, Влегов, гледав, даде, напишал, направи, освои -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">158</feat><!-- е, ќе, дојде, сакам, Мислам, дојдеш, биде, дојди, може, јави -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">299</feat><!-- е, беше, дојде, облеков, студеше, ќе, сакам, јави, Мислам, дојдеш -->
+    <feat name="VerbForm" value="Inf" upos="AUX">1</feat><!-- можам -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">18</feat><!-- било, одземен, случено, бил, виделе, возбуден, гледал, испорачано, казнет, можел -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">293</feat><!-- е, беше, дојде, облеков, студеше, сакам, Мислам, дојдеш, јави, бев -->
+    <feat name="Voice" value="Pass" upos="ADJ,VERB">9</feat><!-- одземен, возбуден, испорачано, казнет, одбрани, прочитана, случено, совладан -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="25">
-    <dep name="advcl">1</dep>
-    <dep name="advmod">10</dep>
-    <dep name="amod">2</dep>
-    <dep name="appos">1</dep>
-    <dep name="aux:pass">2</dep>
-    <dep name="case">8</dep>
-    <dep name="cc">10</dep>
-    <dep name="ccomp">3</dep>
-    <dep name="conj">10</dep>
-    <dep name="cop">3</dep>
-    <dep name="det">5</dep>
-    <dep name="expl">10</dep>
-    <dep name="flat">2</dep>
-    <dep name="mark">12</dep>
-    <dep name="nmod">2</dep>
+  <deps unique="40">
+    <dep name="_">1</dep>
+    <dep name="acl">3</dep>
+    <dep name="acl:relcl">9</dep>
+    <dep name="advcl">22</dep>
+    <dep name="advmod">118</dep>
+    <dep name="amod">25</dep>
+    <dep name="appos">2</dep>
+    <dep name="aux">37</dep>
+    <dep name="aux:pass">7</dep>
+    <dep name="case">82</dep>
+    <dep name="cc">83</dep>
+    <dep name="ccomp">18</dep>
+    <dep name="conj">81</dep>
+    <dep name="cop">20</dep>
+    <dep name="csubj">4</dep>
+    <dep name="det">19</dep>
+    <dep name="det:poss">2</dep>
+    <dep name="discourse">3</dep>
+    <dep name="expl">61</dep>
+    <dep name="expl:pv">10</dep>
+    <dep name="fixed">10</dep>
+    <dep name="flat">4</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="iobj">29</dep>
+    <dep name="list">3</dep>
+    <dep name="mark">68</dep>
+    <dep name="nmod">14</dep>
     <dep name="nmod:poss">1</dep>
-    <dep name="nsubj">11</dep>
-    <dep name="nsubj:pass">1</dep>
-    <dep name="obj">12</dep>
-    <dep name="obl">5</dep>
-    <dep name="orphan">3</dep>
-    <dep name="punct">27</dep>
-    <dep name="root">20</dep>
-    <dep name="vocative">1</dep>
-    <dep name="xcomp">9</dep>
+    <dep name="nsubj">74</dep>
+    <dep name="nsubj:pass">5</dep>
+    <dep name="nummod">8</dep>
+    <dep name="obj">102</dep>
+    <dep name="obl">28</dep>
+    <dep name="orphan">4</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">220</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">155</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">23</dep>
   </deps>
 </treebank>
