@@ -529,7 +529,7 @@
 5	тие	тие	PRON	_	Case=Nom|Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 6	гледаа	гледа	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 7	телевизија	телевизија	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_
-8	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0020
 # text = Не најавија отсуство, веројатно ќе дојдат.
@@ -700,7 +700,7 @@
 4	разговарав	разговара	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 5	со	со	ADP	_	_	6	case	_	_
 6	него	него	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = other0036
 # text = Тој ќе ги брани бесплатно.
@@ -709,14 +709,14 @@
 3	ги	ги	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
 4	брани	брани	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	бесплатно	бесплатно	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = other0037
 # text = Продадоа скапа роба.
 1	Продадоа	продаде	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	скапа	скап	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
 3	роба	роба	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0038
 # text = Марко, мојот син, пристигна на аеродромот.
@@ -728,14 +728,14 @@
 6	пристигна	пристигне	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	на	на	ADP	_	_	8	case	_	_
 8	аеродромот	аеродром	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = other0039
 # text = Книгата беше прочитана.
 1	Книгата	книга	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
 2	беше	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
 3	прочитана	прочита	VERB	_	Aspect=Perf|Definite=Ind|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0040
 # text = Детето се криеше зад куќата.
@@ -744,7 +744,7 @@
 3	криеше	крие(се)	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
 4	зад	зад	ADP	_	_	5	case	_	_
 5	куќата	куќа	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0041
 # text = Марија е убава и мила.
@@ -753,7 +753,7 @@
 3	убава	убав	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 4	и	и	CCONJ	_	_	5	cc	_	_
 5	мила	мил	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0042
 # text = Мислам дека ќе врне.
@@ -761,14 +761,14 @@
 2	дека	дека	SCONJ	_	_	4	mark	_	_
 3	ќе	ќе	AUX	_	_	4	aux	_	_
 4	врне	врне	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0043
 # text = Јован е чесен.
 1	Јован	јован	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	е	сум	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	чесен	чесен	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0044
 # text = Кој доцни, ќе чека.
@@ -785,7 +785,7 @@
 2	да	да	PART	_	_	4	mark	_	_
 3	се	се	PRON	_	PronType=Prs|Reflex=Yes	4	expl	_	_
 4	сретнеме	сретне(се)	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = other0046
 # text = Татко му извади една голема торта.
@@ -806,7 +806,7 @@
 5	некои	некој	DET	_	Case=Nom|Number=Plur|PronType=Ind	7	det	_	_
 6	нови	нов	ADJ	_	Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_
 7	деца	дете	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = other0048
 # text = Му ја даде ли тетратката на Јован.
@@ -817,7 +817,7 @@
 5	тетратката	тетратка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	_
 6	на	на	ADP	_	_	7	case	_	_
 7	Јован	јован	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0049
 # text = Море, ќе му покажам јас нему.
@@ -837,7 +837,7 @@
 3	зафати	зафати	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	со	со	ADP	_	_	5	case	_	_
 5	работа	работа	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0051
 # text = Тој сака кучиња како и мачки.
@@ -847,7 +847,7 @@
 4	како	како	ADV	_	PronType=Rel	6	cc	_	_
 5	и	и	CCONJ	_	_	4	fixed	_	_
 6	мачки	мачка	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0052
 # text = Лудвиг ван Бетовен бил познат композитор.
@@ -857,7 +857,7 @@
 4	бил	сум	VERB	_	Aspect=Imp|Definite=Ind|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	6	cop	_	_
 5	познат	познат	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	композитор	композитор	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = other0053
 # text = Го решивме проблемот кој што нè мачеше со години.
@@ -870,7 +870,7 @@
 7	мачеше	мачи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 8	со	со	ADP	_	_	9	case	_	_
 9	години	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0054
 # text = Им даде на сите по една паричка.
@@ -881,7 +881,7 @@
 5	по	по	ADP	_	_	7	case	_	_
 6	една	един	NUM	_	Definite=Ind|Gender=Fem|Number=Sing|NumType=Card	7	nummod	_	_
 7	паричка	паричка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0055
 # text = Колоните долги, правилата глупави, персоналот дрзок, храната добра.
@@ -896,7 +896,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	храната	храна	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	list	_	_
 11	добра	добар	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0056
 # text = Мислам дека кучето си замина.
@@ -911,13 +911,13 @@
 # text = Сакам да дојдеш
 1	Сакам	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	да	да	PART	_	_	3	mark	_	_
-3	дојдеш	дојдe	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	дојдеш	дојдe	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 
 # sent_id = other0058
 # text = Канцеларијата на претседателот
 1	Канцеларијата	канцеларија	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
 2	на	на	ADP	_	_	3	case	_	_
-3	претседателот	претседател	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	претседателот	претседател	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_
 
 # sent_id = other0059
 # text = Детето ја прескокна клупата.
@@ -925,7 +925,7 @@
 2	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	прескокна	прескокне	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	клупата	клупа	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0060
 # text = Надвор летаат два авиона.
@@ -933,14 +933,14 @@
 2	летаат	лета	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	два	два	NUM	_	Definite=Ind|Gender=Masc|Number=Plur|NumType=Card	4	nummod	_	_
 4	авиона	авион	NOUN	_	Definite=Ind|Gender=Masc|Number=Count	2	nsubj	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0061
 # text = Му плетам џемпер.
 1	Му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
 2	плетам	плете	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	џемпер	џемпер	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0062
 # text = Марија освои злато, а Петар бронза.
@@ -951,7 +951,7 @@
 5	а	а	CCONJ	_	_	6	cc	_	_
 6	Петар	петар	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	_
 7	бронза	бронза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	orphan	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0063
 # text = Тие средства одат за лекарства, рече шефот.
@@ -963,7 +963,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	рече	рече	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	шефот	шеф	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = other0064
 # text = Оди си дома.
@@ -1006,7 +1006,7 @@
 4	пишуваш	пишува	VERB	PART	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 5	на	на	ADP	_	_	6	case	_	_
 6	кинески	кинески	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-7	?	?	PUNCT	_	_	1	punct	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0069
 # text = Ми рече дека ќе дојде и дека планира да остане неколку дена, но не и дека ќе те посети.
@@ -1030,7 +1030,7 @@
 18	ќе	ќе	AUX	_	_	20	aux	_	_
 19	те	те	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	20	obj	_	_
 20	посети	посети	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0070
 # text = Оваа година постигна гол на пет натпревари по ред, а тоа му се немаше случено претходно.
@@ -1051,7 +1051,7 @@
 15	немаше	нема	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	случено	случен	ADJ	_	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
 17	претходно	претходно	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0071
 # text = Сакам прекрасен сладолед, со три топки, од ванила, јагода и лешник, каков што јаде она дете.
@@ -1075,7 +1075,7 @@
 18	јаде	јаде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 19	она	она	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	det	_	_
 20	дете	дете	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	nsubj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0072
 # text = Немам пари и не одам во кино.
@@ -1098,7 +1098,7 @@
 6	одам	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	во	во	ADP	_	_	8	case	_	_
 8	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = other0074
 # text = Ние ја подготвувавме сцената, а тие ги редеа столчињата.
@@ -1112,7 +1112,7 @@
 8	ги	ги	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	expl	_	_
 9	редеа	реди	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	столчињата	столче	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
-11	.	.	PUNCT	punct	_	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = other0075
 # text = Кога ќе дојдеш, ќе ги раскажам за моите авантури.
@@ -1138,7 +1138,7 @@
 6	за	за	ADP	_	_	8	case	_	_
 7	моите	мој	DET	_	Definite=Def|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	авантури	авантура	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0077
 # text = Пред да ти се јавам, бев во Тинекс .
@@ -1151,7 +1151,7 @@
 7	бев	бев	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 8	во	во	ADP	_	_	9	case	_	_
 9	Тинекс	тинекс	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = other0078
 # text = Студеше така што облеков јакна.
@@ -1198,7 +1198,7 @@
 4	не	не	PART	_	Polarity=Neg	5	advmod	_	_
 5	облеков	облече	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	јакна	јакна	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0083
 # text = Гледавме натпревар и навивавме за Вардар.
@@ -1208,7 +1208,7 @@
 4	навивавме	навива	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	1	conj	_	_
 5	за	за	ADP	_	_	6	case	_	_
 6	Вардар	вардар	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0084
 # text = Бев незадоволен од оценката и затоа го поништив испитот.
@@ -1259,7 +1259,7 @@
 9	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
 10	предложив	предложи	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	нешто	нешто	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0088
 # text = Седна, та почна да ме распрашува.
@@ -1326,7 +1326,7 @@
 13	присуството	присуство	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	_
 14	на	на	ADP	_	_	15	case	_	_
 15	саемот	саем	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = other0093
 # text = Таму ја оставивме колата, а овде ќе ја подигнеме.
@@ -1413,7 +1413,7 @@
 10	професорот	професор	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	бара	бара	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	_
 12	знаење	знаење	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0099
 # text = Тие се забавуваат, а ние работиме .
@@ -1424,7 +1424,7 @@
 5	а	а	CCONJ	_	_	7	cc	_	_
 6	ние	ние	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	работиме	работи	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
-8	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0100
 # text = Кој не сака, нека не доаѓа.
@@ -1473,7 +1473,7 @@
 3	да	да	AUX	_	_	5	aux	_	_
 4	ги	ги	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	купам	купи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = other0104
 # text = Јасно е дека сте во право.
@@ -1483,7 +1483,7 @@
 4	сте	сум	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	nsubj	_	_
 5	во	во	ADP	_	_	6	case	_	_
 6	право	право	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	csubj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = other0105
 # text = Не нѐ видоа или не сакаа да нѐ видат.
@@ -1496,7 +1496,7 @@
 7	да	да	PART	_	_	9	mark	_	_
 8	нѐ	нѐ	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
 9	видат	видe	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = other0106
 # text = Подготви се за утрешниот тест или ќе ти биде одземен компјутерот до крајот на учебната година.
@@ -1562,7 +1562,7 @@
 6	на	на	ADP	_	_	7	case	_	_
 7	боксот	бокс	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 8	абдицира	абдицира	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0110
 # text = Го посматрав како заспива.
@@ -1570,7 +1570,7 @@
 2	посматрав	посматра	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	како	како	ADV	_	PronType=Int	4	advmod	_	_
 4	заспива	заспива	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = other0111
 # text = Ниту дојде ниту се јави.
@@ -1588,7 +1588,7 @@
 3	ниту	ниту	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
 4	ме	ме	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 5	интересира	интересира	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	SpaceAfter=No
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = other0113
 # text = Сакам сладолед каков што јаде она дете.
@@ -1599,7 +1599,7 @@
 5	јаде	јаде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
 6	она	она	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
 7	дете	дете	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	1	punct	_	SpaceAfter=No
+8	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = other0114
 # text = Заработуваме толку колку што можеме.
@@ -1608,7 +1608,7 @@
 3	колку	колку	ADV	_	NumType=Card|PronType=Int	5	advmod	_	_
 4	што	што	PRON	_	_	5	obj	_	_
 5	можеме	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	SpaceAfter=No
+6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = other0115
 # text = Ќе ти дадам сè што ќе посакаш.
@@ -1619,7 +1619,7 @@
 5	што	што	SCONJ	_	_	7	mark	_	_
 6	ќе	ќе	AUX	_	_	7	aux	_	_
 7	посакаш	посака	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0116
 # text = Не ни се јавија, значи нема да дојдат.
@@ -1632,7 +1632,7 @@
 7	нема	нема	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 8	да	да	PART	_	_	9	mark	_	_
 9	дојдат	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = other0117
 # text = И се најадов и се одморив.
@@ -1642,7 +1642,7 @@
 4	и	и	CCONJ	_	_	6	cc	_	_
 5	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 6	одморив	одмори	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = other0118
 # text = Тој што ги оставил работиве овде ќе биде казнет.
@@ -1696,7 +1696,7 @@
 13	до	до	ADP	_	_	15	case	_	_
 14	првата	прв	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
 15	пауза	пауза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = other0121
 # text = Таа може да дојде или да не дојде.
@@ -1708,7 +1708,7 @@
 6	да	да	PART	_	_	8	mark	_	_
 7	не	не	PART	_	Polarity=Neg	8	advmod	_	_
 8	дојде	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0122
 # text = Сѐ е добро, единствено што не дојде Марко.
@@ -1721,7 +1721,7 @@
 7	не	не	PART	_	Polarity=Neg	8	advmod	_	_
 8	дојде	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 9	Марко	марко	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = other0123
 # text = А легна а заспа.
@@ -1729,7 +1729,7 @@
 2	легна	легна	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	а	а	CCONJ	_	_	4	cc	_	_
 4	заспа	заспа	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = other0124
 # text = Ја купи го зелениот, ја купи го црвениот - мене ми е сеедно.
@@ -1747,7 +1747,7 @@
 12	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	expl	_	_
 13	е	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 14	сеедно	сеедно	ADV	_	Degree=Pos	2	conj	_	SpaceAfter=No
-15	.	.	PUNCT	punct	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = other0125
 # text = Натпреварот што го гледав вчера ме воодушеви.
@@ -1758,7 +1758,7 @@
 5	вчера	вчера	ADV	_	Degree=Pos	4	advmod	_	_
 6	ме	ме	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
 7	воодушеви	воодушеви	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = other0126
 # text = Натпреварот што го гледав како снимка ме воодушеви.
@@ -1770,7 +1770,7 @@
 6	снимка	снимка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	_
 7	ме	ме	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
 8	воодушеви	воодушеви	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = other0127
 # text = Сонцето час ќе се појавеше час ќе се скриеше зад облаците.
@@ -1842,7 +1842,7 @@
 4	да	да	PART	_	_	6	mark	_	_
 5	ги	ги	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	критикувам	критикува	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = other0133
 # text = Кај нив гори светлото, сигурно се дома.
@@ -1854,7 +1854,7 @@
 6	сигурно	сигурно	ADV	_	Degree=Pos	8	advmod	_	_
 7	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	cop	_	_
 8	дома	дома	VERB	_	Degree=Pos	3	conj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0134
 # text = Јас барам такво место каде што би можел да се одморам.
@@ -1869,7 +1869,7 @@
 9	да	да	AUX	_	_	11	aux	_	_
 10	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	_
 11	одморам	одморам	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0135
 # proverete
@@ -1884,5 +1884,5 @@
 8	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 9	на	на	ADP	_	_	10	case	_	_
 10	мобилен	мобилен	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
 

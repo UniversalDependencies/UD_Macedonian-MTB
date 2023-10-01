@@ -84,8 +84,7 @@
     <feat name="Voice" value="Pass" upos="ADJ,VERB">9</feat><!-- одземен, возбуден, испорачано, казнет, одбрани, прочитана, случено, совладан -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
-    <dep name="_">1</dep>
+  <deps unique="39">
     <dep name="acl">3</dep>
     <dep name="acl:relcl">9</dep>
     <dep name="advcl">22</dep>
@@ -120,7 +119,7 @@
     <dep name="obl">28</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">1</dep>
-    <dep name="punct">220</dep>
+    <dep name="punct">221</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">155</dep>
     <dep name="vocative">2</dep>
