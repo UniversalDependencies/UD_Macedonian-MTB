@@ -290,6 +290,8 @@
 9	Франција	Франција	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	Translit=Francija|LTranslit=Francija|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
+# newdoc id = other
+# sent_id = other0001
 1	Одеа	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
 2	накај	накај	ADP	_	_	3	case	_	_
 3	дома	дома	ADV	_	_	1	advmod	_	_
