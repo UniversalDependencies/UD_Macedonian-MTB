@@ -1115,7 +1115,7 @@
 11	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = other0075
-# text = Кога ќе дојдеш, ќе ги раскажам за моите авантури.
+# text = Кога ќе дојдеш, ќе ти раскажам за моите авантури.
 1	Кога	кога	ADV	_	PronType=Int	3	advmod	_	_
 2	ќе	ќе	AUX	_	_	3	aux	_	_
 3	дојдеш	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	SpaceAfter=No
