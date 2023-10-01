@@ -343,14 +343,14 @@
 
 # sent_id = other0005
 # text = Не можеш да дојдеш или не сакаш?
-1	Не	не	PART	_	Polarity=Neg	4	advmod	_	_
-2	можеш	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	root	_	_
+1	Не	не	PART	_	Polarity=Neg	2	advmod	_	_
+2	можеш	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	да	да	PART	_	_	4	mark	_	_
-4	дојдеш	дојде	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	xcomp	_	_
+4	дојдеш	дојде	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 5	или	или	CCONJ	_	_	7	cc	_	_
 6	не	не	PART	_	Polarity=Neg	7	advmod	_	_
 7	сакаш	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
-8	?	?	PUNCT	_	_	4	punct	_	_
+8	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0006
 # text = Тие не го забележија возачот покрај расипаниот автомобил или не сакаа да го забележат.
@@ -483,17 +483,17 @@
 
 # sent_id = other0016
 # text = Таа е жена каква што само може да се посака.
-1	Таа	таа	PRON	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	е	сум	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	cop	_	_
-3	жена	жена	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	root	_	_
-4	каква	каков	SCONJ	_	_	10	mark	_	_
-5	што	што	SCONJ	_	_	10	mark	_	_
-6	само	само	ADV	_	_	10	advmod	_	_
-7	може	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+1	Таа	таа	PRON	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	е	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	жена	жена	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+4	каква	каков	SCONJ	_	_	7	mark	_	_
+5	што	што	SCONJ	_	_	7	mark	_	_
+6	само	само	ADV	_	_	7	advmod	_	_
+7	може	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
 8	да	да	PART	_	_	10	mark	_	_
 9	се	се	PRON	_	_	10	expl:pv	_	_
-10	посака	посака	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	_
+10	посака	посака	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0017
 # text = Ја купив книгата и почнав да ја читам.
