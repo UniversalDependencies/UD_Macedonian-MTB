@@ -18,7 +18,7 @@
     <tag name="ADJ">43</tag><!-- нов, голем, добар, минат, прекрасен, утрешен, учебен, болен, вознемирен, главен -->
     <tag name="ADP">85</tag><!-- на, за, во, од, со, до, зад, кај, по, како -->
     <tag name="ADV">57</tag><!-- вчера, како, дома, кога, само, многу, овде, пак, потоа, бавно -->
-    <tag name="AUX">63</tag><!-- ќе, сум, да, биде, дека, бев, било, би, може, нема -->
+    <tag name="AUX">64</tag><!-- ќе, сум, да, биде, дека, бев, било, би, може, нема -->
     <tag name="CCONJ">83</tag><!-- и, или, а, ниту, но, па, ем, ту, час, што -->
     <tag name="DET">20</tag><!-- мој, некој, ова, она, еден, каков, негов, нејзин, свој, такво -->
     <tag name="INTJ">2</tag><!-- мама, море -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">27</tag><!-- петар, Мери, марија, марко, јован, Џејн, Браун, Игуацу, Париз, Сем -->
     <tag name="PUNCT">221</tag><!-- ., ,, ?, !, -, –, “, „ -->
     <tag name="SCONJ">34</tag><!-- што, дека, да, ако, бидејќи, де, додека, иако, каде, каков -->
-    <tag name="VERB">288</tag><!-- дојде, сака, сум, може, оди, јави, гледа, купи, студи, облече -->
+    <tag name="VERB">287</tag><!-- дојде, сака, може, оди, сум, јави, гледа, купи, студи, облече -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="49">
@@ -85,7 +85,7 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
-    <dep name="acl">3</dep>
+    <dep name="acl">4</dep>
     <dep name="acl:relcl">9</dep>
     <dep name="advcl">22</dep>
     <dep name="advmod">84</dep>
@@ -95,7 +95,7 @@
     <dep name="aux:pass">7</dep>
     <dep name="case">82</dep>
     <dep name="cc">83</dep>
-    <dep name="ccomp">18</dep>
+    <dep name="ccomp">17</dep>
     <dep name="conj">81</dep>
     <dep name="cop">20</dep>
     <dep name="csubj">4</dep>
