@@ -1785,7 +1785,7 @@
 9	скриеше	скрие	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	5	conj	_	_
 10	зад	зад	ADP	_	_	11	case	_	_
 11	облаците	облак	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	advmod	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	5	punct	_	SpaceAfter=No
+12	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = other0128
 # text = Сакам толкава торта колкава што може да ти собере фрижидерот.
@@ -1799,7 +1799,7 @@
 8	ти	ти	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	9	iobj	_	_
 9	собере	собере	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 10	фрижидерот	фрижидер	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0129
 # text = Натпреварот, којшто го гледав како снимка, ме воодушеви.
@@ -1813,7 +1813,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	ме	ме	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 10	воодушеви	воодушеви	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = other0130
 # text = Живееме како што живеат богаташите.
@@ -1822,17 +1822,17 @@
 3	што	што	SCONJ	_	_	4	mark	_	_
 4	живеат	живеe	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
 5	богаташите	богаташ	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0131
 # text = Ќе дојдам тогаш кога ќе речете.
-1	Ќе	ќе	AUX	_ 	_	2	aux	_	_
+1	Ќе	ќе	AUX	_	_	2	aux	_	_
 2	дојдам	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	тогаш	тогаш	ADV	_	PronType=Dem	2	advmod	_	_
 4	кога	кога	ADV	_	PronType=Int	6	advmod	_	_
-5	ќе	ќе	AUX	_ 	_	2	aux	_	_
+5	ќе	ќе	AUX	_	_	2	aux	_	_
 6	речете	рече	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	_	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0132
 # text = Жал ми е да ги критикувам.
