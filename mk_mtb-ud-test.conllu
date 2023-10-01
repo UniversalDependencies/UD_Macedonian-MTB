@@ -960,7 +960,7 @@
 13	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
 14	се	се	PRON	_	PronType=Prs|Reflex=Yes	16	expl	_	_
 15	немаше	нема	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	16	aux	_	_
-16	случено	случен	ADJ	_	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	_
+16	случено	случен	ADJ	_	Aspect=Perf|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	_
 17	претходно	претходно	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
