@@ -438,10 +438,10 @@
 7	оди	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 8	на	на	ADP	_	_	9	case	_	_
 9	кафе	кафе	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	advmod	_	_
-10	во	во	ADP	_	_	13	case	_	_
-11	„	„	PUNCT	_	PunctType=Quot	13	punct	_	_
+10	во	во	ADP	_	_	12	case	_	_
+11	„	„	PUNCT	_	PunctType=Quot	12	punct	_	_
 12	Спа	спа	NOUN	_	Definite=Ind|Number=Sing	7	advmod	_	_
-13	“	“	PUNCT	_	PunctType=Quot	13	punct	_	_
+13	“	“	PUNCT	_	PunctType=Quot	12	punct	_	_
 14	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 1	Тој	тој	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -491,11 +491,11 @@
 
 1	Ние	ние	PRON	_	Case=Nom|Definite=Def|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	пишувавме	пишува	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
-4	а	а	CONJ	_	_	7	cc	_	_
+3	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
+4	а	а	CONJ	_	_	6	cc	_	_
 5	тие	тие	PRON	_	Case=Nom|Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 6	гледаа	гледа	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-7	телевизија	телевизија	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
+7	телевизија	телевизија	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_
 8	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 1	Не	не	PART	_	Polarity=Neg	2	advmod	_	_
@@ -1170,7 +1170,7 @@
 4	а	а	CONJ	_	_	7	cc	_	_
 5	тие	тие	PRON	_	Case=Nom|Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 6	се	се	PRON	_	_	7	expl:pv	_	_
-7	забавуваат	забавува	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+7	забавуваат	забавува	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 8	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # text = Беше возбуден, па не забележа незадоволство во нејзиниот глас.
