@@ -40,7 +40,7 @@ XPOS: not available
 Features: manual native
 Relations: manual native
 Contributors: Cvetkoski, Vladimir
-Contributing: elsewhere
+Contributing: here
 Contact: cvetkoski@flf.ukim.edu.mk
 ===============================================================================
 </pre>
