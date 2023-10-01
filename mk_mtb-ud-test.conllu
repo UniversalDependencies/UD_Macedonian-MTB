@@ -299,20 +299,20 @@
 4	и	и	CCONJ	_	_	5	cc	_	_
 5	разговараа	разговара	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	за	за	ADP	_	_	7	case	_	_
-7	филмот	филм	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No
+7	филмот	филм	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0002
 # text = Влеговме на стадионот порано и седнавме на добро место.
 1	Влеговме	влезе	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	на	на	ADP	_	_	3	case	_	_
-3	стадионот	стадион	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	advmod	_	_
+3	стадионот	стадион	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	_
 4	порано	порано	ADV	_	_	1	advmod	_	_
 5	и	и	CCONJ	_	_	6	cc	_	_
 6	седнавме	седне	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 7	на	на	ADP	_	_	9	case	_	_
 8	добро	добар	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
-9	место	место	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No
+9	место	место	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0003
@@ -323,7 +323,7 @@
 4	се	се	PRON	_	Reflex=Yes	5	expl	_	_
 5	пензионира	пензионира	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	_
 6	минатата	минат	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
-7	година	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No
+7	година	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	напишал	напише	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 10	нова	нов	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
@@ -361,7 +361,7 @@
 5	возачот	возач	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	_
 6	покрај	покрај	ADP	_	_	8	case	_	_
 7	расипаниот	расипан	ADJ	_	Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	_
-8	автомобил	автомобил	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	_
+8	автомобил	автомобил	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
 9	или	или	CCONJ	_	_	11	cc	_	_
 10	не	не	PART	_	Polarity=Neg	11	advmod	_	_
 11	сакаа	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -424,7 +424,7 @@
 6	не	не	PART	_	Polarity=Neg	7	advmod	_	_
 7	отидов	оди	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 8	на	на	ADP	_	_	7	case	_	_
-9	факултет	факултет	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No
+9	факултет	факултет	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0012
@@ -457,14 +457,14 @@
 2	првин	првин	ADV	_	_	3	advmod	_	_
 3	доаѓа	доаѓа	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	на	на	ADP	_	_	5	case	_	_
-5	факултет	факултет	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	_
+5	факултет	факултет	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	_
 6	или	или	CCONJ	_	_	7	cc	_	_
 7	оди	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 8	на	на	ADP	_	_	9	case	_	_
-9	кафе	кафе	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	advmod	_	_
+9	кафе	кафе	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	_
 10	во	во	ADP	_	_	12	case	_	_
 11	„	„	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	Спа	спа	NOUN	_	Definite=Ind|Number=Sing	7	advmod	_	SpaceAfter=No
+12	Спа	спа	NOUN	_	Definite=Ind|Number=Sing	7	obl	_	SpaceAfter=No
 13	“	“	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -478,7 +478,7 @@
 6	не	не	PART	_	Polarity=Neg	7	advmod	_	_
 7	остана	остане	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 8	до	до	ADP	_	_	9	case	_	_
-9	крајот	крај	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No
+9	крајот	крај	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0016
@@ -511,7 +511,7 @@
 # text = Влегов во собата на син ми и запалив светло.
 1	Влегов	влезе	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	во	во	ADP	_	_	3	case	_	_
-3	собата	соба	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	advmod	_	_
+3	собата	соба	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	obl	_	_
 4	на	на	ADP	_	_	5	case	_	_
 5	син	син	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
 6	ми	ми	PRON	_	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
@@ -558,7 +558,7 @@
 2	се	се	PRON	_	Reflex=Yes	3	expl:pv	_	_
 3	вратив	врати	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	од	од	ADP	_	_	3	case	_	_
-5	Рим	рим	NOUN	_	Definite=Def	3	advmod	_	SpaceAfter=No
+5	Рим	рим	NOUN	_	Definite=Def	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	каде	каде	SCONJ	_	_	10	mark	_	_
 8	што	што	SCONJ	_	_	10	mark	_	_
@@ -609,20 +609,20 @@
 9	спомна	спомне	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	средбата	средба	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obj	_	_
 11	со	со	ADP	_	_	12	case	_	_
-12	Мила	мила	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	SpaceAfter=No
+12	Мила	мила	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0027
 # text = Бевме на кино , а потоа отидовме на вечера.
 1	Бевме	сум	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	на	на	ADP	_	_	3	case	_	_
-3	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	advmod	_	_
+3	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	_
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	а	а	CCONJ	_	_	8	cc	_	_
 6	потоа	потоа	ADV	_	_	8	advmod	_	_
 7	отидовме	отиде	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 8	на	на	ADP	_	_	10	case	_	_
-9	вечера	вечера	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	SpaceAfter=No
+9	вечера	вечера	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0028
@@ -667,7 +667,7 @@
 2	ме	ме	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 3	поканија	покани	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	на	на	ADP	_	_	5	case	_	_
-5	семинар	семинар	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	_
+5	семинар	семинар	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	_
 6	ем	ем	CCONJ	_	_	8	cc	_	_
 7	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
 8	понудија	понуди	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -727,7 +727,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	пристигна	пристигне	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	на	на	ADP	_	_	8	case	_	_
-8	аеродромот	аеродром	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	SpaceAfter=No
+8	аеродромот	аеродром	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = other0039
@@ -743,7 +743,7 @@
 2	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	_
 3	криеше	крие(се)	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
 4	зад	зад	ADP	_	_	5	case	_	_
-5	куќата	куќа	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	SpaceAfter=No
+5	куќата	куќа	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = other0041
@@ -800,7 +800,7 @@
 # sent_id = other0047
 # text = На улицата се играа некои нови деца.
 1	На	на	ADP	_	_	2	case	_	_
-2	улицата	улица	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	_
+2	улицата	улица	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	_
 3	се	се	PRON	_	PronType=Prs|Reflex=Yes	4	expl	_	_
 4	играа	игра	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	некои	некој	DET	_	Case=Nom|Number=Plur|PronType=Ind	7	det	_	_
@@ -869,7 +869,7 @@
 6	нè	нè	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
 7	мачеше	мачи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 8	со	со	ADP	_	_	9	case	_	_
-9	години	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	advmod	_	SpaceAfter=No
+9	години	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0054
@@ -969,7 +969,7 @@
 # text = Оди си дома.
 1	Оди	оди	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2	си	си	PRON	_	PronType=Prs|Reflex=Yes	1	expl	_	_
-3	дома	дома	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	SpaceAfter=No
+3	дома	дома	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=No
 
 # sent_id = other0065
@@ -1021,7 +1021,7 @@
 9	да	да	SCONJ	_	_	10	mark	_	_
 10	остане	остане	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	_
 11	неколку	неколку	PRON	_	Definite=Ind|Number=Plur|PronType=Ind	12	nummod	_	_
-12	дена	ден	NOUN	_	Gender=Masc|Number=Count	10	advmod	_	SpaceAfter=No
+12	дена	ден	NOUN	_	Gender=Masc|Number=Count	10	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	но	но	CCONJ	_	_	20	cc	_	_
 15	не	не	PART	_	Polarity=Neg	20	advmod	_	_
@@ -1035,14 +1035,14 @@
 # sent_id = other0070
 # text = Оваа година постигна гол на пет натпревари по ред, а тоа му се немаше случено претходно.
 1	Оваа	ова	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	година	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	_
+2	година	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	_
 3	постигна	постигне	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	гол	гол	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	_
 5	на	на	ADP	_	_	7	case	_	_
 6	пет	пет	NUM	_	Definite=Ind|Number=Plur|NumType=Card	7	nummod	_	_
 7	натпревари	натпревар	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	_
 8	по	по	ADP	_	_	9	case	_	_
-9	ред	ред	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No
+9	ред	ред	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	а	а	CCONJ	_	_	16	cc	_	_
 12	тоа	тоа	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	_
@@ -1085,7 +1085,7 @@
 4	не	не	PART	_	Polarity=Neg	5	advmod	_	_
 5	одам	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	во	во	ADP	_	_	7	case	_	_
-7	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	advmod	_	SpaceAfter=No
+7	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = other0073
@@ -1097,7 +1097,7 @@
 5	не	не	PART	_	Polarity=Neg	6	advmod	_	_
 6	одам	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	во	во	ADP	_	_	8	case	_	_
-8	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No
+8	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = other0074
@@ -1442,7 +1442,7 @@
 1	На	на	ADP	_	_	2	case	_	_
 2	море	море	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
 3	минатиот	минат	ADJ	_	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-4	одмор	одмор	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	_
+4	одмор	одмор	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	_
 5	останавме	остана	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	15	15	NUM	_	Definite=Ind|Number=Plur|NumType=Card	7	nummod	_	_
 7	дена	ден	NOUN	_	Gender=Masc|Number=Count	5	obj	_	SpaceAfter=No
@@ -1512,7 +1512,7 @@
 10	одземен	одземе	VERB	_	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	conj	_	_
 11	компјутерот	компјутер	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	_
 12	до	до	ADP	_	_	13	case	_	_
-13	крајот	крај	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	_
+13	крајот	крај	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	_
 14	на	на	ADP	_	_	16	case	_	_
 15	учебната	учебен	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	година	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
@@ -1526,7 +1526,7 @@
 4	подготвиш	подготви	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 5	за	за	ADP	_	_	7	case	_	_
 6	утрешниот	утрешен	ADJ	_	Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
-7	тест	тест	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No
+7	тест	тест	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	ќе	ќе	AUX	_	_	12	aux	_	_
 10	ти	ти	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	12	iobj	_	_
@@ -1534,7 +1534,7 @@
 12	одземен	одземе	VERB	_	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 13	компјутерот	компјутер	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 14	до	до	ADP	_	_	15	case	_	_
-15	крајот	крај	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	_
+15	крајот	крај	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	_
 16	на	на	ADP	_	_	18	case	_	_
 17	учебната	учебен	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 18	година	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
@@ -1676,7 +1676,7 @@
 15	во	во	ADP	_	_	18	case	_	_
 16	последниве	последен	ADJ	_	Definite=Def|Degree=Pos|Number=Plur	18	amod	_	_
 17	неколку	неколку	NUM	_	Definite=Ind|Number=Plur|NumType=Card	18	nummod	_	_
-18	месеци	месец	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	advmod	_	SpaceAfter=No
+18	месеци	месец	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = other0120
@@ -1692,10 +1692,10 @@
 9	ќе	ќе	AUX	_	_	10	aux	_	_
 10	почекаат	почека	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	пред	пред	ADP	_	_	12	case	_	_
-12	врата	врата	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	_
+12	врата	врата	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	_
 13	до	до	ADP	_	_	15	case	_	_
 14	првата	прв	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
-15	пауза	пауза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	SpaceAfter=No
+15	пауза	пауза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = other0121
@@ -1784,7 +1784,7 @@
 8	се	се	PRON	_	PronType=Prs|Reflex=Yes	9	expl	_	_
 9	скриеше	скрие	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	5	conj	_	_
 10	зад	зад	ADP	_	_	11	case	_	_
-11	облаците	облак	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	advmod	_	SpaceAfter=No
+11	облаците	облак	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = other0128

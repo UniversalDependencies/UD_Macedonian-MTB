@@ -88,7 +88,7 @@
     <dep name="acl">3</dep>
     <dep name="acl:relcl">9</dep>
     <dep name="advcl">22</dep>
-    <dep name="advmod">118</dep>
+    <dep name="advmod">84</dep>
     <dep name="amod">25</dep>
     <dep name="appos">2</dep>
     <dep name="aux">37</dep>
@@ -116,7 +116,7 @@
     <dep name="nsubj:pass">5</dep>
     <dep name="nummod">8</dep>
     <dep name="obj">102</dep>
-    <dep name="obl">28</dep>
+    <dep name="obl">62</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">1</dep>
     <dep name="punct">221</dep>
