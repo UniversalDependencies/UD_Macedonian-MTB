@@ -1985,8 +1985,8 @@
 4	светлото	светло	ADJ	_	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|Translit=svetloto|LTranslit=svetlo
 5	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 6	сигурно	сигурно	ADV	_	Degree=Pos	8	advmod	_	Translit=sigurno|LTranslit=sigurno
-7	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	cop	_	Translit=se|LTranslit=se
-8	дома	дома	VERB	_	Degree=Pos	3	conj	_	SpaceAfter=No|Translit=doma|LTranslit=doma
+7	се	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	Translit=se|LTranslit=se
+8	дома	дома	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No|Translit=doma|LTranslit=doma
 9	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0134
