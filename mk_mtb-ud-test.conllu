@@ -1081,7 +1081,7 @@
 # translit = Mi reče deka ťe dojde i deka planira da ostane nekolku dena, no ne i deka ťe te poseti.
 1	Ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	Translit=Mi|LTranslit=mi
 2	рече	рече	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=reče|LTranslit=reče
-3	дека	дека	NOUN	_	_	5	mark	_	Translit=deka|LTranslit=deka
+3	дека	дека	CCONJ	_	_	5	mark	_	Translit=deka|LTranslit=deka
 4	ќе	ќе	AUX	_	_	5	aux	_	Translit=ťe|LTranslit=ťe
 5	дојде	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	Translit=dojde|LTranslit=dojde
 6	и	и	CCONJ	_	_	8	cc	_	Translit=i|LTranslit=i
