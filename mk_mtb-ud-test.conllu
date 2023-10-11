@@ -1388,10 +1388,10 @@
 11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=No|Translit=.|LTranslit=.
 
 # sent_id = other0091
-# text = Не само што положив туку и добив десетка.
+# text = Не само што положив, туку и добив десетка.
 # translit = Ne samo što položiv tuku i dobiv desetka.
-1	Не	не	CCONJ	_	Polarity=Neg	4	cc	_	Translit=Ne|LTranslit=ne
-2	само	само	ADV	_	Degree=Pos	1	fixed	_	Translit=samo|LTranslit=samo
+1	Не	не	PART	_	Polarity=Neg	2	cc	_	Translit=Ne|LTranslit=ne
+2	само	само	ADV	_	Degree=Pos	4	fixed	_	Translit=samo|LTranslit=samo
 3	што	што	SCONJ	_	_	2	fixed	_	Translit=što|LTranslit=što
 4	положив	положи	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=položiv|LTranslit=položi
 5	туку	туку	CCONJ	_	_	7	cc	_	Translit=tuku|LTranslit=tuku
