@@ -1327,7 +1327,7 @@
 2	не	не	PART	_	Polarity=Neg	3	advmod	_	Translit=ne|LTranslit=ne
 3	дојде	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=dojde|LTranslit=dojde
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
-5	ниту	ниту	CCONJ	_	Polarity=Neg	7	cc	_	Translit=nitu|LTranslit=nitu
+5	ниту	ниту	CCONJ	_	_	7	cc	_	Translit=nitu|LTranslit=nitu
 6	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	Translit=se|LTranslit=se
 7	јави	јави	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|Translit=javi|LTranslit=javi
 8	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
@@ -1342,7 +1342,7 @@
 5	за	за	ADP	_	_	6	case	_	Translit=za|LTranslit=za
 6	тоа	тоа	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No|Translit=toa|LTranslit=toa
 7	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
-8	ниту	ниту	CCONJ	_	Polarity=Neg	10	cc	_	Translit=nitu|LTranslit=nitu
+8	ниту	ниту	CCONJ	_	_	10	cc	_	Translit=nitu|LTranslit=nitu
 9	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	Translit=mu|LTranslit=mu
 10	предложив	предложи	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Translit=predloživ|LTranslit=predloži
 11	нешто	нешто	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	SpaceAfter=No|Translit=nešto|LTranslit=nešto
@@ -1697,7 +1697,7 @@
 # translit = Nitu znam nitu me interesira.
 1	Ниту	ниту	CCONJ	_	_	2	cc	_	Translit=Nitu|LTranslit=nitu
 2	знам	знам	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=znam|LTranslit=znam
-3	ниту	ниту	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	Translit=nitu|LTranslit=nitu
+3	ниту	ниту	CCONJ	_	_	5	cc	_	Translit=nitu|LTranslit=nitu
 4	ме	ме	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Translit=me|LTranslit=me
 5	интересира	интересира	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No|Translit=interesira|LTranslit=interesira
 6	.	.	PUNCT	punct	_	2	punct	_	Translit=.|LTranslit=.
