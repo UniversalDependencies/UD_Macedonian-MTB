@@ -581,8 +581,8 @@
 3	вратив	врати	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=vrativ|LTranslit=vrati
 4	од	од	ADP	_	_	5	case	_	Translit=od|LTranslit=od
 5	Рим	рим	NOUN	_	Definite=Def	3	obl	_	SpaceAfter=No|Translit=Rim|LTranslit=rim
-6	,	,	PUNCT	_	_	10	punct	_	Translit=,|LTranslit=,
-7	каде	каде	PRON	_	_	10	advmod	_	Translit=kade|LTranslit=kade
+6	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
+7	каде	каде	PRON	_	_	11	advmod	_	Translit=kade|LTranslit=kade
 8	што	што	PRON	_	_	7	fixed	_	Translit=što|LTranslit=što
 9	времето	време	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	Translit=vremeto|LTranslit=vreme
 10	беше	сум	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	Translit=beše|LTranslit=sum
