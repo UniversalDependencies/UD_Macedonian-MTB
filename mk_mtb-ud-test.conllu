@@ -584,7 +584,7 @@
 6	,	,	PUNCT	_	_	10	punct	_	Translit=,|LTranslit=,
 7	каде	каде	PRON	_	_	10	advmod	_	Translit=kade|LTranslit=kade
 8	што	што	PRON	_	_	7	fixed	_	Translit=što|LTranslit=što
-9	времето	време	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	Translit=vremeto|LTranslit=vreme
+9	времето	време	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	Translit=vremeto|LTranslit=vreme
 10	беше	сум	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	Translit=beše|LTranslit=sum
 11	прекрасно	прекрасен	ADJ	_	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	advcl	_	SpaceAfter=No|Translit=prekrasno|LTranslit=prekrasen
 12	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
