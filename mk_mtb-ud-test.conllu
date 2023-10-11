@@ -1768,7 +1768,7 @@
 2	што	што	SCONJ	_	_	4	mark	_	Translit=što|LTranslit=što
 3	ги	ги	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	Translit=gi|LTranslit=gi
 4	оставил	остави	VERB	_	Aspect=Perf|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl:relcl	_	Translit=ostavil|LTranslit=ostavi
-5	работиве	работа	NOUN	_	Definite=Prox|Gender=Fem|Number=Plur	4	obj	_	Translit=rabotive|LTranslit=rabota
+5	работиве	работа	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	obj	_	Translit=rabotive|LTranslit=rabota
 6	овде	овде	ADV	_	Degree=Pos	4	advmod	_	Translit=ovde|LTranslit=ovde
 7	ќе	ќе	AUX	_	_	9	aux	_	Translit=ťe|LTranslit=ťe
 8	биде	биде	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	Translit=bide|LTranslit=bide
