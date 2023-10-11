@@ -676,7 +676,7 @@
 1	Жалам	жали	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Žalam|LTranslit=žali
 2	што	што	PRON	SCONJ	_	7	mark	_	Translit=što|LTranslit=što
 3	не	не	PART	_	Polarity=Neg	4	advmod	_	Translit=ne|LTranslit=ne
-4	можам	може	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Inf|Voice=Act	7	ccomp	_	Translit=možam|LTranslit=može
+4	можам	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Inf|Voice=Act	7	ccomp	_	Translit=možam|LTranslit=može
 5	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
 6	ви	ви	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	iobj	_	Translit=vi|LTranslit=vi
 7	помогнам	помогне	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No|Translit=pomognam|LTranslit=pomogne
@@ -1225,7 +1225,7 @@
 4	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	Translit=se|LTranslit=se
 5	јавам	јави	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No|Translit=javam|LTranslit=javi
 6	,	,	PUNCT	_	_	5	punct	_	Translit=,|LTranslit=,
-7	бев	бев	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Translit=bev|LTranslit=bev
+7	бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Translit=bev|LTranslit=bev
 8	во	во	ADP	_	_	9	case	_	Translit=vo|LTranslit=vo
 9	Тинекс	тинекс	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	Translit=Tineks|LTranslit=tineks
 10	.	.	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.
@@ -1296,7 +1296,7 @@
 # sent_id = other0084
 # text = Бев незадоволен од оценката и затоа го поништив испитот.
 # translit = Bev nezadovolen od ocenkata i zatoa go poništiv ispitot.
-1	Бев	бев	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Translit=Bev|LTranslit=bev
+1	Бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Translit=Bev|LTranslit=bev
 2	незадоволен	незадоволен	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Translit=nezadovolen|LTranslit=nezadovolen
 3	од	од	ADP	_	_	4	case	_	Translit=od|LTranslit=od
 4	оценката	оценка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	Translit=ocenkata|LTranslit=ocenka
@@ -1583,7 +1583,7 @@
 # translit = Jasno e deka ste vo pravo.
 1	Јасно	јасно	ADV	_	Degree=Pos	0	root	_	Translit=Jasno|LTranslit=jasno
 2	е	сум	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	Translit=e|LTranslit=sum
-3	дека	дека	AUX	_	_	6	mark	_	Translit=deka|LTranslit=deka
+3	дека	дека	SCONJ	_	_	6	mark	_	Translit=deka|LTranslit=deka
 4	сте	сум	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	nsubj	_	Translit=ste|LTranslit=sum
 5	во	во	ADP	_	_	6	case	_	Translit=vo|LTranslit=vo
 6	право	право	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	csubj	_	SpaceAfter=No|Translit=pravo|LTranslit=pravo
@@ -1790,7 +1790,7 @@
 10	што	што	PRON	_	_	14	mark	_	Translit=što|LTranslit=što
 11	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	Translit=mi|LTranslit=mi
 12	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	Translit=se|LTranslit=se
-13	нема	нема	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	Translit=nema|LTranslit=nema
+13	нема	нема	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	Translit=nema|LTranslit=nema
 14	случено	случи	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Person=3|VerbForm=Part|Voice=Act	2	advcl	_	Translit=slučeno|LTranslit=sluči
 15	во	во	ADP	_	_	18	case	_	Translit=vo|LTranslit=vo
 16	последниве	последен	ADJ	_	Definite=Def|Degree=Pos|Number=Plur	18	amod	_	Translit=poslednive|LTranslit=posleden
@@ -2020,4 +2020,3 @@
 9	на	на	ADP	_	_	10	case	_	Translit=na|LTranslit=na
 10	мобилен	мобилен	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|Translit=mobilen|LTranslit=mobilen
 11	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
-
