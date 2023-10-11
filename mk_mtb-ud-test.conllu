@@ -380,11 +380,11 @@
 # text = Сонцето час ќе се појавеше час ќе се скриеше зад облаците.
 # translit = Sonceto čas ťe se pojaveše čas ťe se skrieše zad oblacite.
 1	Сонцето	сонце	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	Translit=Sonceto|LTranslit=sonce
-2	час	час	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	cc	_	Translit=čas|LTranslit=čas
+2	час	час	CCONJ	_	Definite=Ind|Gender=Masc|Number=Sing	5	cc	_	Translit=čas|LTranslit=čas
 3	ќе	ќе	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Translit=ťe|LTranslit=ťe
 4	се	се	PRON	_	_	5	expl	_	Translit=se|LTranslit=se
 5	појавеше	појави	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=pojaveše|LTranslit=pojavi
-6	час	час	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	cc	_	Translit=čas|LTranslit=čas
+6	час	час	CCONJ	_	Definite=Ind|Gender=Masc|Number=Sing	9	cc	_	Translit=čas|LTranslit=čas
 7	ќе	ќе	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	Translit=ťe|LTranslit=ťe
 8	се	се	PRON	_	_	9	expl	_	Translit=se|LTranslit=se
 9	скриеше	скрие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Translit=skrieše|LTranslit=skrie
