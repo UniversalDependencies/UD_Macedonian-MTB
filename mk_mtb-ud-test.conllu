@@ -558,9 +558,9 @@
 3	отсуство	отсуство	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|Translit=otsustvo|LTranslit=otsustvo
 4	,	,	PUNCT	_	_	2	punct	_	Translit=,|LTranslit=,
 5	веројатно	веројатно	ADV	_	_	7	advmod	_	Translit=verojatno|LTranslit=verojatno
-6	ќе	ќе	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	Translit=ťe|LTranslit=ťe
+6	ќе	ќе	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	Translit=ťe|LTranslit=ťe
 7	дојдат	дојдe	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|Translit=dojdat|LTranslit=dojde
-8	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
+8	.	.	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0021
 # text = Иако студеше, не облеков јакна.
