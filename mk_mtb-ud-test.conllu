@@ -906,7 +906,7 @@
 1	Лудвиг	лудвиг	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	Translit=Ludvig|LTranslit=ludvig
 2	ван	ван	PROPN	_	_	1	flat	_	Translit=van|LTranslit=van
 3	Бетовен	бетовен	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	Translit=Betoven|LTranslit=betoven
-4	бил	сум	AUX	_	Aspect=Imp|Definite=Ind|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	6	cop	_	Translit=bil|LTranslit=sum
+4	бил	сум	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	6	cop	_	Translit=bil|LTranslit=sum
 5	познат	познат	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	Translit=poznat|LTranslit=poznat
 6	композитор	композитор	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Translit=kompozitor|LTranslit=kompozitor
 7	.	.	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.
