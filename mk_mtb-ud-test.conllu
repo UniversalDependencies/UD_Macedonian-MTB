@@ -912,18 +912,17 @@
 7	.	.	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0053
-# text = Го решивме проблемот кој што нè мачеше со години.
-# translit = Go rešivme problemot koj što nè mačeše so godini.
-1	Го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	Translit=Go|LTranslit=go
-2	решивме	реши	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=rešivme|LTranslit=reši
+# text = Го решивме проблемот којшто нè мачеше со години.
+# translit = Go rešivme problemot kojšto nè mačeše so godini.
+1	Го	го	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	Translit=Go|LTranslit=go
+2	решивме	реши	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=rešivme|LTranslit=reši
 3	проблемот	проблем	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	Translit=problemot|LTranslit=problem
-4	кој	кој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	7	nsubj	_	Translit=koj|LTranslit=koj
-5	што	што	PRON	_	_	4	goeswith	_	Translit=što|LTranslit=što
-6	нè	нè	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	Translit=nè|LTranslit=nè
-7	мачеше	мачи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	3	acl:relcl	_	Translit=mačeše|LTranslit=mači
-8	со	со	ADP	_	_	9	case	_	Translit=so|LTranslit=so
-9	години	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|Translit=godini|LTranslit=godina
-10	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
+4	којшто	којшто	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	6	nsubj	_	Translit=kojšto|LTranslit=kojšto
+5	нè	нè	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	expl	_	Translit=nè|LTranslit=nè
+6	мачеше	мачи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	3	acl:relcl	_	Translit=mačeše|LTranslit=mači
+7	со	со	ADP	_	_	8	case	_	Translit=so|LTranslit=so
+8	години	година	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|Translit=godini|LTranslit=godina
+9	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0054
 # text = Им даде на сите по една паричка.
