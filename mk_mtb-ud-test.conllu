@@ -1424,7 +1424,7 @@
 # text = Таму ја оставивме колата, а овде ќе ја подигнеме.
 # translit = Tamu ja ostavivme kolata, a ovde ťe ja podigneme.
 1	Таму	таму	ADV	_	PronType=Dem	3	advmod	_	Translit=Tamu|LTranslit=tamu
-2	ја	ја	AUX	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=ja|LTranslit=ja
+2	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=ja|LTranslit=ja
 3	оставивме	остави	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=ostavivme|LTranslit=ostavi
 4	колата	кола	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|Translit=kolata|LTranslit=kola
 5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
