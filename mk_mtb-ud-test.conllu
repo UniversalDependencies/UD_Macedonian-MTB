@@ -532,7 +532,7 @@
 3	собата	соба	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	obl	_	Translit=sobata|LTranslit=soba
 4	на	на	ADP	_	_	5	case	_	Translit=na|LTranslit=na
 5	син	син	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	Translit=sin|LTranslit=sin
-6	ми	ми	PRON	_	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mi|LTranslit=mi
+6	ми	ми	PRON	_	Case=Dat|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	Translit=mi|LTranslit=mi
 7	и	и	CCONJ	_	_	8	cc	_	Translit=i|LTranslit=i
 8	запалив	запали	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	Translit=zapaliv|LTranslit=zapali
 9	светло	светло	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|Translit=svetlo|LTranslit=svetlo
