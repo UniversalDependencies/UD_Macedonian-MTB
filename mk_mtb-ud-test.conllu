@@ -1687,7 +1687,7 @@
 # translit = Nitu dojde nitu se javi.
 1	Ниту	ниту	CCONJ	_	_	2	cc	_	Translit=Nitu|LTranslit=nitu
 2	дојде	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=dojde|LTranslit=dojde
-3	ниту	ниту	PRON	_	_	5	cc	_	Translit=nitu|LTranslit=nitu
+3	ниту	ниту	CCONJ	_	_	5	cc	_	Translit=nitu|LTranslit=nitu
 4	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	Translit=se|LTranslit=se
 5	јави	јави	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|Translit=javi|LTranslit=javi
 6	.	.	PUNCT	punct	_	2	punct	_	Translit=.|LTranslit=.
@@ -1708,7 +1708,7 @@
 1	Сакам	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Sakam|LTranslit=saka
 2	сладолед	сладолед	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	Translit=sladoled|LTranslit=sladoled
 3	каков	каков	DET	_	Gender=Masc|Number=Sing|PronType=Int	5	obj	_	Translit=kakov|LTranslit=kakov
-4	што	што	PRON	_	_	5	mark	_	Translit=što|LTranslit=što
+4	што	што	SCONJ	_	_	5	mark	_	Translit=što|LTranslit=što
 5	јаде	јаде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	Translit=jade|LTranslit=jade
 6	она	она	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	Translit=ona|LTranslit=ona
 7	дете	дете	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|Translit=dete|LTranslit=dete
@@ -1787,7 +1787,7 @@
 7	играни	игран	ADJ	_	Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	Translit=igrani|LTranslit=igran
 8	филма	филм	NOUN	_	Gender=Masc|Number=Count	4	nmod	_	SpaceAfter=No|Translit=filma|LTranslit=film
 9	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
-10	што	што	PRON	_	_	14	mark	_	Translit=što|LTranslit=što
+10	што	што	SCONJ	_	_	14	mark	_	Translit=što|LTranslit=što
 11	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	Translit=mi|LTranslit=mi
 12	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	Translit=se|LTranslit=se
 13	нема	нема	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	Translit=nema|LTranslit=nema
