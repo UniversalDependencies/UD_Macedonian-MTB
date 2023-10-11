@@ -1815,7 +1815,7 @@
 11	пред	пред	ADP	_	_	12	case	_	Translit=pred|LTranslit=pred
 12	врата	врата	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	Translit=vrata|LTranslit=vrata
 13	до	до	ADP	_	_	15	case	_	Translit=do|LTranslit=do
-14	првата	прва	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	Translit=prvata|LTranslit=prv
+14	првата	прва	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Translit=prvata|LTranslit=prv
 15	пауза	пауза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|Translit=pauza|LTranslit=pauza
 16	.	.	PUNCT	_	_	10	punct	_	Translit=.|LTranslit=.
 
