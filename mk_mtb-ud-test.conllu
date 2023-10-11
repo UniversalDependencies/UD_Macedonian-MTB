@@ -676,7 +676,7 @@
 1	Жалам	жали	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Žalam|LTranslit=žali
 2	што	што	SCONJ	_	_	7	mark	_	Translit=što|LTranslit=što
 3	не	не	PART	_	Polarity=Neg	4	advmod	_	Translit=ne|LTranslit=ne
-4	можам	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Inf|Voice=Act	7	ccomp	_	Translit=možam|LTranslit=može
+4	можам	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	Translit=možam|LTranslit=može
 5	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
 6	ви	ви	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	iobj	_	Translit=vi|LTranslit=vi
 7	помогнам	помогне	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No|Translit=pomognam|LTranslit=pomogne
