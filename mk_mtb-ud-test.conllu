@@ -641,15 +641,15 @@
 # sent_id = other0027
 # text = Бевме на кино , а потоа отидовме на вечера.
 # translit = Bevme na kino , a potoa otidovme na večera.
-1	Бевме	сум	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=Bevme|LTranslit=sum
+1	Бевме	сум	AUX	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	cop	_	Translit=Bevme|LTranslit=sum
 2	на	на	ADP	_	_	3	case	_	Translit=na|LTranslit=na
-3	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	Translit=kino|LTranslit=kino
+3	кино	кино	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	root	_	Translit=kino|LTranslit=kino
 4	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 5	а	а	CCONJ	_	_	8	cc	_	Translit=a|LTranslit=a
 6	потоа	потоа	ADV	_	_	8	advmod	_	Translit=potoa|LTranslit=potoa
-7	отидовме	отиде	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	Translit=otidovme|LTranslit=otide
-8	на	на	ADP	_	_	10	case	_	Translit=na|LTranslit=na
-9	вечера	вечера	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|Translit=večera|LTranslit=večera
+7	отидовме	отиде	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Translit=otidovme|LTranslit=otide
+8	на	на	ADP	_	_	9	case	_	Translit=na|LTranslit=na
+9	вечера	вечера	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|Translit=večera|LTranslit=večera
 10	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0028
