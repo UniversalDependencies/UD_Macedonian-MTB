@@ -140,10 +140,10 @@
 # text = Ниту Петар Смит ниту Мери Браун не можеа да бидат одбрани.
 # translit = Nitu Petar Smit nitu Meri Braun ne možea da bidat odbrani.
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
-1	Ниту	ниту	CCONJ	_	_	2	cc	_	Translit=Nitu|LTranslit=nitu
+1	Ниту	ниту	PART	_	Polarity=Neg	2	advmod	_	Translit=Nitu|LTranslit=nitu
 2	Петар	Петар	PROPN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	Translit=Petar|LTranslit=Petar
 3	Смит	Смит	PROPN	_	Gender=Masc|Number=Sing	2	flat	_	Translit=Smit|LTranslit=Smit
-4	ниту	ниту	CCONJ	_	_	5	cc	_	Translit=nitu|LTranslit=nitu
+4	ниту	ниту	PART	_	Polarity=Neg	5	advmod	_	Translit=nitu|LTranslit=nitu
 5	Мери	Мери	PROPN	_	Gender=Fem|Number=Sing	2	conj	_	Translit=Meri|LTranslit=Meri
 6	Браун	Браун	PROPN	_	Gender=Fem|Number=Sing	5	flat	_	Translit=Braun|LTranslit=Braun
 7	не	не	PART	_	Polarity=Neg	8	advmod	_	Translit=ne|LTranslit=ne
