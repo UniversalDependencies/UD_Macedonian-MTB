@@ -1395,7 +1395,7 @@
 4	положив	положи	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=položiv|LTranslit=položi
 5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
 6	туку	туку	CCONJ	_	_	8	cc	_	Translit=tuku|LTranslit=tuku
-7	и	и	CCONJ	_	_	8	fixed	_	Translit=i|LTranslit=i
+7	и	и	CCONJ	_	_	6	fixed	_	Translit=i|LTranslit=i
 8	добив	добив	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Translit=dobiv|LTranslit=dobie
 9	десетка	десетка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|Translit=desetka|LTranslit=desetka
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|Translit=.|LTranslit=.
