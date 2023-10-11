@@ -1389,16 +1389,17 @@
 
 # sent_id = other0091
 # text = Не само што положив, туку и добив десетка.
-# translit = Ne samo što položiv tuku i dobiv desetka.
-1	Не	не	PART	_	Polarity=Neg	2	cc	_	Translit=Ne|LTranslit=ne
-2	само	само	ADV	_	Degree=Pos	4	fixed	_	Translit=samo|LTranslit=samo
+# translit = Ne samo što položiv, tuku i dobiv desetka.
+1	Не	не	PART	_	Polarity=Neg	4	cc	_	Translit=Ne|LTranslit=ne
+2	само	само	ADV	_	Degree=Pos	1	fixed	_	Translit=samo|LTranslit=samo
 3	што	што	SCONJ	_	_	2	fixed	_	Translit=što|LTranslit=što
-4	положив	положи	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=položiv|LTranslit=položi
-5	туку	туку	CCONJ	_	_	7	cc	_	Translit=tuku|LTranslit=tuku
-6	и	и	CCONJ	_	_	5	fixed	_	Translit=i|LTranslit=i
-7	добив	добие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Translit=dobiv|LTranslit=dobie
-8	десетка	десетка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|Translit=desetka|LTranslit=desetka
-9	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|Translit=.|LTranslit=.
+4	положив	положи	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=položiv|LTranslit=položi
+5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
+6	туку	туку	CCONJ	_	_	8	cc	_	Translit=tuku|LTranslit=tuku
+7	и	и	CCONJ	_	_	8	fixed	_	Translit=i|LTranslit=i
+8	добив	добив	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Translit=dobiv|LTranslit=dobie
+9	десетка	десетка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|Translit=desetka|LTranslit=desetka
+10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|Translit=.|LTranslit=.
 
 # sent_id = other0092
 # text = Сето тоа беше многу корисно за нас и ние сме презадоволни од присуството на саемот.
