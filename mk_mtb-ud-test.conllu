@@ -1356,7 +1356,7 @@
 3	та	та	CCONJ	_	_	7	cc	_	Translit=ta|LTranslit=ta
 4	почна	почне	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	Translit=počna|LTranslit=počne
 5	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
-6	ме	ме	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	Translit=me|LTranslit=me
+6	ме	ме	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	Translit=me|LTranslit=me
 7	распрашува	распраша	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|Translit=rasprašuva|LTranslit=raspraša
 8	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
