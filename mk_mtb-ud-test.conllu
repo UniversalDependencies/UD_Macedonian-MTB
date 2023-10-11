@@ -1088,7 +1088,7 @@
 8	планира	планира	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Translit=planira|LTranslit=planira
 9	да	да	PART	_	_	10	mark	_	Translit=da|LTranslit=da
 10	остане	остане	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	Translit=ostane|LTranslit=ostane
-11	неколку	неколку	PRON	_	Definite=Ind|Number=Plur|PronType=Ind	12	nummod	_	Translit=nekolku|LTranslit=nekolku
+11	неколку	неколку	PRON	_	Definite=Ind|Number=Plur|PronType=Ind	12	amod	_	Translit=nekolku|LTranslit=nekolku
 12	дена	ден	NOUN	_	Gender=Masc|Number=Count	10	obl	_	SpaceAfter=No|Translit=dena|LTranslit=den
 13	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
 14	но	но	CCONJ	_	_	20	cc	_	Translit=no|LTranslit=no
