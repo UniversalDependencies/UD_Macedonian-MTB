@@ -1406,7 +1406,7 @@
 1	Сето	сиот	PRON	_	_	2	det	_	Translit=Seto|LTranslit=siot
 2	тоа	тоа	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	Translit=toa|LTranslit=toa
 3	беше	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	5	cop	_	Translit=beše|LTranslit=sum
-4	многу	многу	ADV	_	Definite=Ind|Degree=Pos|Number=Plur|NumType=Card	5	advmod	_	Translit=mnogu|LTranslit=mnogu
+4	многу	многу	ADV	_	Degree=Pos	5	advmod	_	Translit=mnogu|LTranslit=mnogu
 5	корисно	корисен	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	Translit=korisno|LTranslit=korisen
 6	за	за	ADP	_	_	7	case	_	Translit=za|LTranslit=za
 7	нас	нас	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	Translit=nas|LTranslit=nas
