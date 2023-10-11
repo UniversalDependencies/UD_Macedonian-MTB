@@ -430,7 +430,7 @@
 1	Бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	Translit=Bev|LTranslit=sum
 2	болен	болен	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|Translit=bolen|LTranslit=bolen
 3	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
-4	така	така	CCONJ	_	_	7	conj	_	Translit=taka|LTranslit=taka
+4	така	така	CCONJ	_	_	7	mark	_	Translit=taka|LTranslit=taka
 5	што	што	CCONJ	_	_	4	fixed	_	Translit=što|LTranslit=što
 6	не	не	PART	_	Polarity=Neg	7	advmod	_	Translit=ne|LTranslit=ne
 7	отидов	оди	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Translit=otidov|LTranslit=odi
