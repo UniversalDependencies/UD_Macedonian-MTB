@@ -400,7 +400,7 @@
 3	па	па	CCONJ	_	_	6	cc	_	Translit=pa|LTranslit=pa
 4	ќе	ќе	AUX	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	aux	_	Translit=ťe|LTranslit=ťe
 5	се	се	PRON	_	_	6	expl	_	Translit=se|LTranslit=se
-6	договориме	договори	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|Translit=dogovorime|LTranslit=dogovori
+6	договориме	договори	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|Translit=dogovorime|LTranslit=dogovori
 7	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0009
@@ -933,7 +933,7 @@
 3	на	на	ADP	_	_	4	case	_	Translit=na|LTranslit=na
 4	сите	сите	PRON	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Tot	2	iobj	_	Translit=site|LTranslit=site
 5	по	по	ADP	_	_	7	case	_	Translit=po|LTranslit=po
-6	една	един	NUM	_	Definite=Ind|Gender=Fem|Number=Sing|NumType=Card	7	nummod	_	Translit=edna|LTranslit=edin
+6	една	едeн	NUM	_	Definite=Ind|Gender=Fem|Number=Sing|NumType=Card	7	nummod	_	Translit=edna|LTranslit=edin
 7	паричка	паричка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|Translit=parička|LTranslit=parička
 8	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -1257,7 +1257,7 @@
 1	Облеков	облече	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=Oblekov|LTranslit=obleče
 2	јакна	јакна	VERB	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	Translit=jakna|LTranslit=jakna
 3	за	за	ADP	_	_	6	mark	_	Translit=za|LTranslit=za
-4	да	да	AUX	_	_	3	fixed	_	Translit=da|LTranslit=da
+4	да	да	PART	_	_	3	fixed	_	Translit=da|LTranslit=da
 5	се	се	PRON	_	PronType=Prs|Reflex=Yes	6	expl	_	Translit=se|LTranslit=se
 6	стоплам	стопли	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No|Translit=stoplam|LTranslit=stopli
 7	.	.	PUNCT	punct	_	2	punct	_	Translit=.|LTranslit=.
@@ -1441,7 +1441,7 @@
 1	Тие	тие	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Translit=Tie|LTranslit=tie
 2	секогаш	секогаш	ADV	_	Degree=Pos	3	advmod	_	Translit=sekogaš|LTranslit=sekogaš
 3	сакаат	сакам	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=sakaat|LTranslit=sakam
-4	да	да	AUX	_	_	5	mark	_	Translit=da|LTranslit=da
+4	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
 5	помогнат	помогна	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	xcomp	_	SpaceAfter=No|Translit=pomognat|LTranslit=pomogna
 6	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 7	а	а	CCONJ	_	_	10	cc	_	Translit=a|LTranslit=a
@@ -1573,7 +1573,7 @@
 # translit = Ne planirav da gi kupam.
 1	Не	не	PART	_	Polarity=Neg	2	advmod	_	Translit=Ne|LTranslit=ne
 2	планирав	планира	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=planirav|LTranslit=planira
-3	да	да	AUX	_	_	5	aux	_	Translit=da|LTranslit=da
+3	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
 4	ги	ги	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	Translit=gi|LTranslit=gi
 5	купам	купи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No|Translit=kupam|LTranslit=kupi
 6	.	.	PUNCT	punct	_	2	punct	_	Translit=.|LTranslit=.
@@ -1823,7 +1823,7 @@
 # translit = Taa može da dojde ili da ne dojde.
 1	Таа	таа	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Taa|LTranslit=taa
 2	може	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=može|LTranslit=može
-3	да	да	AUX	_	_	4	mark	_	Translit=da|LTranslit=da
+3	да	да	PART	_	_	4	mark	_	Translit=da|LTranslit=da
 4	дојде	дојде	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=dojde|LTranslit=dojde
 5	или	или	CCONJ	_	_	8	cc	_	Translit=ili|LTranslit=ili
 6	да	да	PART	_	_	8	mark	_	Translit=da|LTranslit=da
@@ -1923,7 +1923,7 @@
 4	колкава	колкав	ADV	_	NumType=Card|PronType=Int	3	advmod	_	Translit=kolkava|LTranslit=kolkav
 5	што	што	PRON	_	_	9	obj	_	Translit=što|LTranslit=što
 6	може	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	Translit=može|LTranslit=može
-7	да	да	AUX	_	_	9	aux	_	Translit=da|LTranslit=da
+7	да	да	PART	_	_	9	mark	_	Translit=da|LTranslit=da
 8	ти	ти	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	9	iobj	_	Translit=ti|LTranslit=ti
 9	собере	собере	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	Translit=sobere|LTranslit=sobere
 10	фрижидерот	фрижидер	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|Translit=frižiderot|LTranslit=frižider
@@ -2000,7 +2000,7 @@
 6	што	што	SCONJ	_	_	8	mark	_	Translit=što|LTranslit=što
 7	би	би	AUX	_	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	Translit=bi|LTranslit=bi
 8	можел	може	VERB	_	Aspect=Imp|Definite=Ind|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl:relcl	_	Translit=možel|LTranslit=može
-9	да	да	AUX	_	_	11	aux	_	Translit=da|LTranslit=da
+9	да	да	PART	_	_	11	mark	_	Translit=da|LTranslit=da
 10	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	Translit=se|LTranslit=se
 11	одморам	одморам	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	SpaceAfter=No|Translit=odmoram|LTranslit=odmoram
 12	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
