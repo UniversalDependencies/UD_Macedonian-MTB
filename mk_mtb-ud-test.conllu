@@ -388,7 +388,7 @@
 7	ќе	ќе	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	Translit=ťe|LTranslit=ťe
 8	се	се	PRON	_	_	9	expl	_	Translit=se|LTranslit=se
 9	скриеше	скрие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Translit=skrieše|LTranslit=skrie
-10	зад	зад	ADP	_	_	11	advmod	_	Translit=zad|LTranslit=zad
+10	зад	зад	ADP	_	_	11	case	_	Translit=zad|LTranslit=zad
 11	облаците	облак	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|Translit=oblacite|LTranslit=oblak
 12	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
