@@ -427,16 +427,16 @@
 # sent_id = other0011
 # text = Бев болен, така што не отидов на факултет.
 # translit = Bev bolen, taka što ne otidov na fakultet.
-1	Бев	сум	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=Bev|LTranslit=sum
-2	болен	болен	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	amod	_	SpaceAfter=No|Translit=bolen|LTranslit=bolen
-3	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
+1	Бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	Translit=Bev|LTranslit=sum
+2	болен	болен	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|Translit=bolen|LTranslit=bolen
+3	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 4	така	така	CCONJ	_	_	7	conj	_	Translit=taka|LTranslit=taka
 5	што	што	CCONJ	_	_	4	fixed	_	Translit=što|LTranslit=što
 6	не	не	PART	_	Polarity=Neg	7	advmod	_	Translit=ne|LTranslit=ne
-7	отидов	оди	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	Translit=otidov|LTranslit=odi
-8	на	на	ADP	_	_	7	case	_	Translit=na|LTranslit=na
+7	отидов	оди	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Translit=otidov|LTranslit=odi
+8	на	на	ADP	_	_	9	case	_	Translit=na|LTranslit=na
 9	факултет	факултет	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|Translit=fakultet|LTranslit=fakultet
-10	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
+10	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0012
 # text = Снегот паѓаше изобилно и автомобилите бавно се движеа.
