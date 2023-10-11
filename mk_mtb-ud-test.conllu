@@ -1969,7 +1969,7 @@
 # sent_id = other0132
 # text = Жал ми е да ги критикувам.
 # translit = Žal mi e da gi kritikuvam.
-1	Жал	жал	VERB	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Translit=Žal|LTranslit=žal
+1	Жал	жал	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	Translit=Žal|LTranslit=žal
 2	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	Translit=mi|LTranslit=mi
 3	е	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	Translit=e|LTranslit=sum
 4	да	да	PART	_	_	6	mark	_	Translit=da|LTranslit=da
