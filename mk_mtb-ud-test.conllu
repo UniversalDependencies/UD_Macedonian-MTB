@@ -2009,11 +2009,11 @@
 # proverete
 # text = Било прати ми порака било јави ми се на мобилен.
 # translit = Bilo prati mi poraka bilo javi mi se na mobilen.
-1	Било	било	AUX	_	Aspect=Imp|Definite=Ind|Gender=Neut|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	2	aux	_	Translit=Bilo|LTranslit=bilo
+1	Било	сум	CCONJ	_	_	2	cc	_	Translit=Bilo|LTranslit=bilo
 2	прати	прати	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Translit=prati|LTranslit=prati
 3	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	Translit=mi|LTranslit=mi
 4	порака	порака	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	Translit=poraka|LTranslit=poraka
-5	било	било	AUX	_	Aspect=Imp|Definite=Ind|Gender=Neut|Mood=Ind|Number=Sing|VerbForm=Part|Voice=Act	6	aux	_	Translit=bilo|LTranslit=bilo
+5	било	сум	CCONJ	_	_	6	cc	_	Translit=bilo|LTranslit=bilo
 6	јави	јави	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	_	Translit=javi|LTranslit=javi
 7	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	Translit=mi|LTranslit=mi
 8	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	Translit=se|LTranslit=se
