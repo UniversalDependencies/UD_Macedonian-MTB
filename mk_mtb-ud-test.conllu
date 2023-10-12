@@ -1393,7 +1393,7 @@
 2	само	само	ADV	_	Degree=Pos	1	fixed	_	Translit=samo|LTranslit=samo
 3	што	што	SCONJ	_	_	2	fixed	_	Translit=što|LTranslit=što
 4	положив	положи	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=položiv|LTranslit=položi
-5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
+5	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 6	туку	туку	CCONJ	_	_	8	cc	_	Translit=tuku|LTranslit=tuku
 7	и	и	CCONJ	_	_	6	fixed	_	Translit=i|LTranslit=i
 8	добив	добив	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Translit=dobiv|LTranslit=dobie
