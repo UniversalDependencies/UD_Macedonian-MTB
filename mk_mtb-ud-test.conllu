@@ -1391,7 +1391,7 @@
 # translit = Ne samo što položiv, tuku i dobiv desetka.
 1	Не	не	PART	_	Polarity=Neg	4	cc	_	Translit=Ne|LTranslit=ne
 2	само	само	ADV	_	Degree=Pos	1	fixed	_	Translit=samo|LTranslit=samo
-3	што	што	SCONJ	_	_	2	fixed	_	Translit=što|LTranslit=što
+3	што	што	SCONJ	_	_	1	fixed	_	Translit=što|LTranslit=što
 4	положив	положи	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Translit=položiv|LTranslit=položi
 5	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 6	туку	туку	CCONJ	_	_	8	cc	_	Translit=tuku|LTranslit=tuku
