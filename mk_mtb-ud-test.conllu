@@ -2006,7 +2006,6 @@
 12	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = other0135
-# proverete
 # text = Било прати ми порака било јави ми се на мобилен.
 # translit = Bilo prati mi poraka bilo javi mi se na mobilen.
 1	Било	сум	CCONJ	_	_	2	cc	_	Translit=Bilo|LTranslit=bilo
