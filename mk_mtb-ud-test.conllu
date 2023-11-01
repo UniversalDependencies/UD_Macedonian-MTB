@@ -89,7 +89,7 @@
 4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=ja
 5	исфарба	исфарба	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=isfarba|LTranslit=isfarba
 6	оградата	ограда	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	Translit=ogradata|LTranslit=ograda
-7	црвена	црвена	ADV	_	Degree=Pos	5	xcomp	_	SpaceAfter=No|Translit=crvena|LTranslit=crvena
+7	црвена	црвена	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|Translit=crvena|LTranslit=crvena
 8	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo08
@@ -2019,4 +2019,3 @@
 9	на	на	ADP	_	_	10	case	_	Translit=na|LTranslit=na
 10	мобилен	мобилен	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|Translit=mobilen|LTranslit=mobilen
 11	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
-
