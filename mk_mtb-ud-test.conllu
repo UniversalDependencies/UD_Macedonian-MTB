@@ -5,7 +5,7 @@
 # translit = Devojkata mu napiša pismo na svojot prijatel.
 # text_en = The girl wrote a letter to her friend.
 1	Девојката	девојка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	Translit=Devojkata|LTranslit=devojka
-2	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=mu|LTranslit=jas
+2	му	му	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=mu|LTranslit=mu
 3	напиша	напишe	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=napiša|LTranslit=napiše
 4	писмо	писмо	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	Translit=pismo|LTranslit=pismo
 5	на	на	ADP	_	_	7	case	_	Translit=na|LTranslit=na
@@ -47,7 +47,7 @@
 # text_en = Do you want to go?
 1	Сакаш	сака	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=Sakaš|LTranslit=saka
 2	да	да	PART	_	_	4	mark	_	Translit=da|LTranslit=da
-3	си	си	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	Translit=si|LTranslit=se
+3	си	си	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	4	expl	_	Translit=si|LTranslit=si
 4	одиш	оди	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No|Translit=odiš|LTranslit=odi
 5	?	?	PUNCT	_	_	1	punct	_	Translit=?|LTranslit=?
 
@@ -59,7 +59,7 @@
 1	Сем	Сем	PROPN	_	Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No|Translit=Sem|LTranslit=Sem
 2	,	,	PUNCT	_	_	1	punct	_	Translit=,|LTranslit=,
 3	отвори	отвори	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	Translit=otvori|LTranslit=otvori
-4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=go|LTranslit=jas
+4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	Translit=go|LTranslit=go
 5	прозорецот	прозорец	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|Translit=prozorecot|LTranslit=prozorec
 6	!	!	PUNCT	_	_	3	punct	_	Translit=!|LTranslit=!
 
@@ -68,12 +68,12 @@
 # text = Го натера мажот ѝ да ја измие колата.
 # translit = Go natera mažot ì da ja izmie kolata.
 # text_en = She made her husband wash the car.
-1	Го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	Translit=Go|LTranslit=jas
+1	Го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	Translit=Go|LTranslit=go
 2	натера	натера	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=natera|LTranslit=natera
 3	мажот	маж	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	Translit=mažot|LTranslit=maž
-4	ѝ	ѝ	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Translit=ì|LTranslit=jas
+4	ѝ	ѝ	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Translit=ì|LTranslit=ì
 5	да	да	PART	_	_	7	mark	_	Translit=da|LTranslit=da
-6	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	Translit=ja|LTranslit=jas
+6	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	Translit=ja|LTranslit=ja
 7	измие	измие	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=izmie|LTranslit=izmie
 8	колата	кола	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|Translit=kolata|LTranslit=kola
 9	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
@@ -86,10 +86,10 @@
 1	Соседот	сосед	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	Translit=Sosedot|LTranslit=sosed
 2	на	на	ADP	_	_	3	case	_	Translit=na|LTranslit=na
 3	Петар	Петар	PROPN	_	Gender=Masc|Number=Sing	1	nmod	_	Translit=Petar|LTranslit=Petar
-4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=jas
+4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=ja
 5	исфарба	исфарба	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=isfarba|LTranslit=isfarba
 6	оградата	ограда	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	Translit=ogradata|LTranslit=ograda
-7	црвена	црвена	ADV	_	Degree=Pos	5	xcomp	_	SpaceAfter=No|Translit=crveno|LTranslit=crveno
+7	црвена	црвена	ADV	_	Degree=Pos	5	xcomp	_	SpaceAfter=No|Translit=crvena|LTranslit=crvena
 8	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
 # newpar id = cairo08
@@ -161,7 +161,7 @@
 1	Не	не	PART	_	Polarity=Neg	2	advmod	_	Translit=Ne|LTranslit=ne
 2	знаат	знае	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=znaat|LTranslit=znae
 3	кој	кој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	Translit=koj|LTranslit=koj
-4	го	го	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	5	obj	_	Translit=go|LTranslit=jas
+4	го	го	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	5	obj	_	Translit=go|LTranslit=go
 5	напишал	напише	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No|Translit=napišal|LTranslit=napiše
 6	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -192,7 +192,7 @@
 # text = Тој купи автомобил, но неговиот брат – само велосипед.
 # translit = Toj kupi avtomobil, no negoviot brat – samo velosiped.
 # text_en = He bought a car but his brother just a bike.
-1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Toj|LTranslit=jas
+1	Тој	тој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Toj|LTranslit=toj
 2	купи	купи	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=kupi|LTranslit=kupi
 3	автомобил	автомобил	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|Translit=avtomobil|LTranslit=avtomobil
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
@@ -228,18 +228,18 @@
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	Требаше	треба	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=Trebaše|LTranslit=treba
 2	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
-3	си	си	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	5	expl	_	Translit=si|LTranslit=se
-4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=jas
+3	си	си	PRON	_	Case=Dat|PronType=Prs|Reflex=Yes	5	expl	_	Translit=si|LTranslit=si
+4	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	Translit=ja|LTranslit=ja
 5	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	Translit=napravi|LTranslit=napravi
 6	фризурата	фризура	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|Translit=frizurata|LTranslit=frizura
 7	,	,	PUNCT	_	_	15	punct	_	Translit=,|LTranslit=,
 8	но	но	CCONJ	_	_	15	cc	_	Translit=no|LTranslit=no
-9	дента	ден	ADV	_	Degree=Pos	15	advmod	_	Translit=denta|LTranslit=denta
+9	дента	ден	ADV	_	Degree=Pos	15	advmod	_	Translit=denta|LTranslit=den
 10	од	од	ADP	_	_	12	case	_	Translit=od|LTranslit=od
 11	некоја	некој	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	Translit=nekoja|LTranslit=nekoj
 12	причина	причина	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	Translit=pričina|LTranslit=pričina
 13	не	не	PART	_	Polarity=Neg	15	advmod	_	Translit=ne|LTranslit=ne
-14	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	Translit=ja|LTranslit=jas
+14	ја	ја	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	Translit=ja|LTranslit=ja
 15	направи	направи	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|Translit=napravi|LTranslit=napravi
 16	.	.	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
@@ -251,7 +251,7 @@
 1	Не	не	PART	_	Polarity=Neg	2	advmod	_	Translit=Ne|LTranslit=ne
 2	можев	може	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=možev|LTranslit=može
 3	да	да	PART	_	_	5	mark	_	Translit=da|LTranslit=da
-4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Translit=go|LTranslit=jas
+4	го	го	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Translit=go|LTranslit=go
 5	следам	следи	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	Translit=sledam|LTranslit=sledi
 6	бидејќи	бидејќи	SCONJ	_	_	7	mark	_	Translit=bidejťi|LTranslit=bidejťi
 7	трчаше	трча	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	2	advcl	_	Translit=trčaše|LTranslit=trča
@@ -279,7 +279,7 @@
 # text = Таа израсна во Париз, главниот град на Франција.
 # translit = Taa izrasna vo Pariz, glavniot grad na Francija.
 # text_en = She grew up in Paris, the capital of France.
-1	Таа	таа	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Taa|LTranslit=jas
+1	Таа	таа	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Translit=Taa|LTranslit=taa
 2	израсна	израсна	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=izrasna|LTranslit=izrasna
 3	во	во	ADP	_	_	4	case	_	Translit=vo|LTranslit=vo
 4	Париз	Париз	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|Translit=Pariz|LTranslit=Pariz
@@ -932,7 +932,7 @@
 3	на	на	ADP	_	_	4	case	_	Translit=na|LTranslit=na
 4	сите	сите	PRON	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Tot	2	iobj	_	Translit=site|LTranslit=site
 5	по	по	ADP	_	_	7	case	_	Translit=po|LTranslit=po
-6	една	едeн	NUM	_	Definite=Ind|Gender=Fem|Number=Sing|NumType=Card	7	nummod	_	Translit=edna|LTranslit=edin
+6	една	едeн	NUM	_	Definite=Ind|Gender=Fem|Number=Sing|NumType=Card	7	nummod	_	Translit=edna|LTranslit=eden
 7	паричка	паричка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|Translit=parička|LTranslit=parička
 8	.	.	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
@@ -1224,7 +1224,7 @@
 4	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	Translit=se|LTranslit=se
 5	јавам	јави	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No|Translit=javam|LTranslit=javi
 6	,	,	PUNCT	_	_	5	punct	_	Translit=,|LTranslit=,
-7	бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Translit=bev|LTranslit=bev
+7	бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	Translit=bev|LTranslit=sum
 8	во	во	ADP	_	_	9	case	_	Translit=vo|LTranslit=vo
 9	Тинекс	тинекс	PROPN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	Translit=Tineks|LTranslit=tineks
 10	.	.	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.
@@ -1295,7 +1295,7 @@
 # sent_id = other0084
 # text = Бев незадоволен од оценката и затоа го поништив испитот.
 # translit = Bev nezadovolen od ocenkata i zatoa go poništiv ispitot.
-1	Бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Translit=Bev|LTranslit=bev
+1	Бев	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Translit=Bev|LTranslit=sum
 2	незадоволен	незадоволен	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	Translit=nezadovolen|LTranslit=nezadovolen
 3	од	од	ADP	_	_	4	case	_	Translit=od|LTranslit=od
 4	оценката	оценка	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	Translit=ocenkata|LTranslit=ocenka
@@ -1396,7 +1396,7 @@
 5	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 6	туку	туку	CCONJ	_	_	8	cc	_	Translit=tuku|LTranslit=tuku
 7	и	и	CCONJ	_	_	6	fixed	_	Translit=i|LTranslit=i
-8	добив	добив	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Translit=dobiv|LTranslit=dobie
+8	добив	добив	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Translit=dobiv|LTranslit=dobiv
 9	десетка	десетка	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|Translit=desetka|LTranslit=desetka
 10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|Translit=.|LTranslit=.
 
@@ -1814,7 +1814,7 @@
 11	пред	пред	ADP	_	_	12	case	_	Translit=pred|LTranslit=pred
 12	врата	врата	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	Translit=vrata|LTranslit=vrata
 13	до	до	ADP	_	_	15	case	_	Translit=do|LTranslit=do
-14	првата	прва	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Translit=prvata|LTranslit=prv
+14	првата	прва	ADJ	_	Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Translit=prvata|LTranslit=prva
 15	пауза	пауза	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|Translit=pauza|LTranslit=pauza
 16	.	.	PUNCT	_	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -1985,7 +1985,7 @@
 4	светлото	светло	ADJ	_	Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|Translit=svetloto|LTranslit=svetlo
 5	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 6	сигурно	сигурно	ADV	_	Degree=Pos	8	advmod	_	Translit=sigurno|LTranslit=sigurno
-7	се	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	Translit=se|LTranslit=se
+7	се	сум	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	Translit=se|LTranslit=sum
 8	дома	дома	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No|Translit=doma|LTranslit=doma
 9	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 
@@ -2008,11 +2008,11 @@
 # sent_id = other0135
 # text = Било прати ми порака било јави ми се на мобилен.
 # translit = Bilo prati mi poraka bilo javi mi se na mobilen.
-1	Било	сум	CCONJ	_	_	2	cc	_	Translit=Bilo|LTranslit=bilo
+1	Било	сум	CCONJ	_	_	2	cc	_	Translit=Bilo|LTranslit=sum
 2	прати	прати	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Translit=prati|LTranslit=prati
 3	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	Translit=mi|LTranslit=mi
 4	порака	порака	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	Translit=poraka|LTranslit=poraka
-5	било	сум	CCONJ	_	_	6	cc	_	Translit=bilo|LTranslit=bilo
+5	било	сум	CCONJ	_	_	6	cc	_	Translit=bilo|LTranslit=sum
 6	јави	јави	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	conj	_	Translit=javi|LTranslit=javi
 7	ми	ми	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	Translit=mi|LTranslit=mi
 8	се	се	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	Translit=se|LTranslit=se
