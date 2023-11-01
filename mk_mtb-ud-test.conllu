@@ -80,8 +80,8 @@
 
 # newpar id = cairo07
 # sent_id = cairo07
-# text = Соседот на Петар ја исфарба оградата црвено.
-# translit = Sosedot na Petar ja isfarba ogradata crveno.
+# text = Соседот на Петар ја исфарба оградата црвена.
+# translit = Sosedot na Petar ja isfarba ogradata crvena.
 # text_en = Peter’s neighbor painted the fence red.
 1	Соседот	сосед	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	Translit=Sosedot|LTranslit=sosed
 2	на	на	ADP	_	_	3	case	_	Translit=na|LTranslit=na
