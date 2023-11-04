@@ -15,9 +15,9 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">43</tag><!-- нов, голем, добар, минат, прекрасен, утрешен, учебен, болен, вознемирен, главен -->
+    <tag name="ADJ">44</tag><!-- нов, голем, добар, минат, прекрасен, утрешен, учебен, болен, вознемирен, главен -->
     <tag name="ADP">85</tag><!-- на, за, во, од, со, до, зад, кај, по, како -->
-    <tag name="ADV">58</tag><!-- вчера, дома, како, кога, само, многу, овде, пак, потоа, бавно -->
+    <tag name="ADV">57</tag><!-- вчера, дома, како, кога, само, многу, овде, пак, потоа, бавно -->
     <tag name="AUX">62</tag><!-- сум, ќе, биде, нема, би -->
     <tag name="CCONJ">87</tag><!-- и, или, а, ниту, но, час, па, ем, сум, ту -->
     <tag name="DET">20</tag><!-- мој, некој, ова, она, еден, каков, негов, нејзин, свој, такво -->
@@ -45,7 +45,7 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">59</feat><!-- вчера, голема, добро, многу, нова, овде, утрешниот, учебната, Јасно, бесплатно -->
     <feat name="Degree" value="Sup" upos="ADV">1</feat><!-- пребрзо -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">110</feat><!-- ја, јакна, година, Мери, Таа, Марија, авантури, бронза, голема, една -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">167</feat><!-- го, му, Тој, Петар, Натпреварот, кој, крајот, Јован, Марко, автомобил -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">168</feat><!-- го, му, Тој, Петар, Натпреварот, кој, крајот, Јован, Марко, автомобил -->
     <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">61</feat><!-- тоа, го, кино, Детето, дете, злато, којшто, место, она, писмо -->
     <feat name="Gender[psor]" value="Masc" upos="DET">1</feat><!-- неговиот -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">2</feat><!-- би, студеше -->
@@ -54,7 +54,7 @@
     <feat name="Mood" value="Int" upos="VERB">1</feat><!-- Знаеш -->
     <feat name="Number" value="Count" upos="NOUN">4</feat><!-- дена, авиона, филма -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">136</feat><!-- тие, ги, ние, моите, авантури, ви, два, дојдат, забавуваат, играа -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">574</feat><!-- го, ми, ја, е, беше, дојде, ме, му, Тој, јакна -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">575</feat><!-- го, ми, ја, е, беше, дојде, ме, му, Тој, јакна -->
     <feat name="Number[psor]" value="Sing" upos="DET">1</feat><!-- неговиот -->
     <feat name="NumType" value="Card" upos="ADV,NUM">11</feat><!-- два, 15, една, колкава, колку, неколку, пет, толкава, толку, три -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">136</feat><!-- ми, ме, облеков, ние, сакам, Мислам, бев, гледав, моите, Влегов -->
