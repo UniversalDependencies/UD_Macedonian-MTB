@@ -1,0 +1,40 @@
+Running the following version of UD tools:
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 4 17:10:55 2023 +0100
+Evaluating the following revision of UD_Macedonian-MTB:
+commit c04d696c13433fd80e3f5898ee4af3cc0f1ec9f9
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 4 23:47:16 2023 +0100
+Size: counted 1360 of 1360 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.614969399495921.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 835 out of 1360 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL         34
+Udapi: found 34 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 1360 words.
+Genres: found 1 out of 17 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang mk --max-err=10 UD_Macedonian-MTB/mk_mtb-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.0445129694567392) = 0.0114135819119844
+(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
+(weight=0.307692307692308) * (score{udapi}=0.75) = 0.230769230769231
+(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
+(TOTAL score=0.535468043613505) * (availability=1) * (validity=1) = 0.535468043613505
+STARS = 2.5
+UD_Macedonian-MTB	0.535468043613505	2.5
