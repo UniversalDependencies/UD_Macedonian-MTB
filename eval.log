@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Macedonian-MTB:
-commit c04d696c13433fd80e3f5898ee4af3cc0f1ec9f9
+commit cf6ea6545f528d18f1bb35b1ddcffc06c3485790
+Merge: 6931932 24376f8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 23:47:16 2023 +0100
 Size: counted 1360 of 1360 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.614969399495921.
 Size: maximum value 13.815511 is for 1000000 words or more.
