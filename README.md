@@ -38,6 +38,7 @@ Sazdov, S. (2012). Contemporary Macedonian Language (2nd ed. p. 84). Tabernakul.
 Data available since: UD v2.13
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
