@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Macedonian-MTB:
-commit 054ae6f6e4a4ec6f4618994553cafa38cb71f2ca
-Merge: bd8a5c0 6c94c92
+commit d0edfab1d573cedb639f90a6d75ffd50c4a71d47
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:16:26 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'mk_mtb'
 Language code (from CoNLL-U file name) = 'mk'
@@ -25,26 +25,37 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang mk --max-err=10 UD_Macedonian-MTB/mk_mtb-ud-test.conllu
-[Line 346 Sent other0003]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 405 Sent other0007]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 409 Sent other0007]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 422 Sent other0008]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 442 Sent other0010]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 453 Sent other0011]: [L3 Warning fixed-without-extpos] Fixed expression 'така што' does not have the 'ExtPos' feature
-[Line 470 Sent other0012]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 480 Sent other0013]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 483 Sent other0013]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 530 Sent other0016]: [L3 Warning pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 605 Sent other0022]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('каде kade')
-[Line 655 Sent other0026]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('ја ja', 'средбата sredbata') under the predicate 'спомна spomna'.
-[Line 1359 Sent other0087]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('го go', 'ништо ništo') under the predicate 'прашав prašav'.
-[Line 1790 Sent other0118]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('ги gi', 'работиве rabotive') under the predicate 'оставил ostavil'.
-[Line 1902 Sent other0125]: [L3 Syntax too-many-objects] Multiple direct objects [2, 3] ('што što', 'го go') under the predicate 'гледав gledav'.
-[Line 1948 Sent other0128]: [L3 Syntax too-many-objects] Multiple direct objects [5, 10] ('што što', 'фрижидерот frižiderot') under the predicate 'собере sobere'.
-Syntax errors: 6
-Warnings: 35
-*** FAILED *** with 6 errors
+[Line 346 Sent other0003]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 405 Sent other0007]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 409 Sent other0007]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 422 Sent other0008]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 442 Sent other0010]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 453 Sent other0011]: [L3 WARNING fixed-without-extpos] Fixed expression 'така што' does not have the 'ExtPos' feature
+[Line 470 Sent other0012]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 480 Sent other0013]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 483 Sent other0013]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 530 Sent other0016]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 600 Sent other0022]: [L3 WARNING pron-det-without-prontype] The word 'се se' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 605 Sent other0022]: [L3 WARNING fixed-without-extpos] Fixed expression 'каде што' does not have the 'ExtPos' feature
+[Line 605 Sent other0022]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('каде kade')
+[Line 655 Sent other0026]: [L3 SYNTAX too-many-objects] Multiple direct objects [8, 10] ('ја ja', 'средбата sredbata') under the predicate 'спомна spomna'.
+[Line 918 Sent other0051]: [L3 WARNING fixed-without-extpos] Fixed expression 'како и' does not have the 'ExtPos' feature
+[Line 1134 Sent other0070]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'натпревари natprevari') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1163 Sent other0071]: [L3 WARNING fixed-without-extpos] Fixed expression 'каков што' does not have the 'ExtPos' feature
+[Line 1229 Sent other0076]: [L3 WARNING fixed-without-extpos] Fixed expression 'за да' does not have the 'ExtPos' feature
+[Line 1256 Sent other0078]: [L3 WARNING fixed-without-extpos] Fixed expression 'така што' does not have the 'ExtPos' feature
+[Line 1278 Sent other0080]: [L3 WARNING fixed-without-extpos] Fixed expression 'за да' does not have the 'ExtPos' feature
+[Line 1359 Sent other0087]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 4] ('го go', 'ништо ništo') under the predicate 'прашав prašav'.
+[Line 1412 Sent other0091]: [L3 WARNING fixed-without-extpos] Fixed expression 'Не само што' does not have the 'ExtPos' feature
+[Line 1417 Sent other0091]: [L3 WARNING fixed-without-extpos] Fixed expression 'туку и' does not have the 'ExtPos' feature
+[Line 1790 Sent other0118]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 5] ('ги gi', 'работиве rabotive') under the predicate 'оставил ostavil'.
+[Line 1861 Sent other0122]: [L3 WARNING fixed-without-extpos] Fixed expression 'единствено што' does not have the 'ExtPos' feature
+[Line 1902 Sent other0125]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 3] ('што što', 'го go') under the predicate 'гледав gledav'.
+[Line 1948 Sent other0128]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 10] ('што što', 'фрижидерот frižiderot') under the predicate 'собере sobere'.
+Warnings: 34
+SYNTAX errors: 7
+*** FAILED *** with 7 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
