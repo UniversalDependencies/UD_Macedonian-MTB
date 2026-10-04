@@ -104,13 +104,13 @@
     <dep name="iobj">27</dep>
     <dep name="list">3</dep>
     <dep name="mark">70</dep>
-    <dep name="nmod">14</dep>
+    <dep name="nmod">15</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">74</dep>
     <dep name="nsubj:pass">5</dep>
     <dep name="nummod">7</dep>
     <dep name="obj">103</dep>
-    <dep name="obl">61</dep>
+    <dep name="obl">60</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">1</dep>
     <dep name="punct">222</dep>
