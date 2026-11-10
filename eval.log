@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Macedonian-MTB:
-commit d0edfab1d573cedb639f90a6d75ffd50c4a71d47
+commit ac0cd08bfff65019615d064d43788eb66a08a315
+Merge: e1d8ab9 b203f85
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:16:26 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'mk_mtb'
 Language code (from CoNLL-U file name) = 'mk'
@@ -41,7 +41,6 @@ Genres: found 1 out of 18 known.
 [Line 605 Sent other0022]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('каде kade')
 [Line 655 Sent other0026]: [L3 SYNTAX too-many-objects] Multiple direct objects [8, 10] ('ја ja', 'средбата sredbata') under the predicate 'спомна spomna'.
 [Line 918 Sent other0051]: [L3 WARNING fixed-without-extpos] Fixed expression 'како и' does not have the 'ExtPos' feature
-[Line 1134 Sent other0070]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'натпревари natprevari') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 1163 Sent other0071]: [L3 WARNING fixed-without-extpos] Fixed expression 'каков што' does not have the 'ExtPos' feature
 [Line 1229 Sent other0076]: [L3 WARNING fixed-without-extpos] Fixed expression 'за да' does not have the 'ExtPos' feature
 [Line 1256 Sent other0078]: [L3 WARNING fixed-without-extpos] Fixed expression 'така што' does not have the 'ExtPos' feature
@@ -54,8 +53,8 @@ Genres: found 1 out of 18 known.
 [Line 1902 Sent other0125]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 3] ('што što', 'го go') under the predicate 'гледав gledav'.
 [Line 1948 Sent other0128]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 10] ('што što', 'фрижидерот frižiderot') under the predicate 'собере sobere'.
 Warnings: 34
-SYNTAX errors: 7
-*** FAILED *** with 7 errors
+SYNTAX errors: 6
+*** FAILED *** with 6 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
